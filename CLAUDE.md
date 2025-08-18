@@ -41,3 +41,40 @@ This project builds a predictive model for soccer games using team attacking/def
 - Prioritize model accuracy with held-out test games
 - Consider xG (expected goals) integration if consistent model available
 - Use all available data features for maximum predictive power
+
+## Getting Started
+
+### 1. Database Setup
+```bash
+# Activate conda environment
+conda activate soccer
+
+# Set up database (downloads Kaggle data if needed)
+python create_database.py
+
+# Force re-download if needed
+python create_database.py --force
+```
+
+### 2. Data Exploration
+```bash
+python explore_data.py
+```
+
+### 3. Model Training
+```bash
+python team_rating_model.py
+```
+
+### 4. Match Predictions
+```bash
+python predict_match.py
+```
+
+## File Structure
+- `create_database.py` - Downloads and sets up the SQLite database
+- `explore_data.py` - Explores the dataset structure and creates visualizations
+- `team_rating_model.py` - Implements and trains the Poisson-based rating model
+- `predict_match.py` - Loads trained model and makes predictions
+- `data/database.sqlite` - Main SQLite database (not in git)
+- `models/` - Saved models and team ratings (not in git)
