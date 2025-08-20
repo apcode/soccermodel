@@ -3,6 +3,9 @@ data/
 *.sqlite
 *.db
 
+# Node
+crawler/node_modules/
+
 # Model files
 models/
 *.pkl

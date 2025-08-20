@@ -1,0 +1,17 @@
+{
+  "name": "fotmob-crawler",
+  "version": "1.0.0",
+  "description": "Web crawler for extracting football data from fotmob.com",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["football", "crawler", "puppeteer", "fotmob"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "puppeteer": "^24.0.0"
+  },
+  "type": "module"
+}

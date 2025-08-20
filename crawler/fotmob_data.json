@@ -1,0 +1,917 @@
+{
+  "sections": [
+    {
+      "section": "International",
+      "leagues": [
+        {
+          "name": "Champions League",
+          "url": "/en-GB/leagues/42/overview/champions-league"
+        },
+        {
+          "name": "Europa League",
+          "url": "/en-GB/leagues/73/overview/europa-league"
+        },
+        {
+          "name": "AFC Challenge League",
+          "url": "/en-GB/leagues/9470/overview/afc-challenge-league"
+        },
+        {
+          "name": "AFC Champions League Elite",
+          "url": "/en-GB/leagues/525/overview/afc-champions-league-elite"
+        },
+        {
+          "name": "AFC Champions League Elite Qualification",
+          "url": "/en-GB/leagues/10622/overview/afc-champions-league-elite-qualification"
+        },
+        {
+          "name": "AFC Champions League Two",
+          "url": "/en-GB/leagues/9469/overview/afc-champions-league-two"
+        },
+        {
+          "name": "AFC Summer Olympics Qualification (Women)",
+          "url": "/en-GB/leagues/10511/overview/afc-summer-olympics-qualification-women"
+        },
+        {
+          "name": "AFC U20 Asian Cup",
+          "url": "/en-GB/leagues/9841/overview/afc-u20-asian-cup"
+        },
+        {
+          "name": "AFC U23 Asian Cup",
+          "url": "/en-GB/leagues/9571/overview/afc-u23-asian-cup"
+        },
+        {
+          "name": "Africa Cup of Nations",
+          "url": "/en-GB/leagues/289/overview/africa-cup-nations"
+        },
+        {
+          "name": "Africa Cup of Nations Qualification",
+          "url": "/en-GB/leagues/10608/overview/africa-cup-nations-qualification"
+        },
+        {
+          "name": "African Football League",
+          "url": "/en-GB/leagues/10508/overview/african-football-league"
+        },
+        {
+          "name": "African Nations Championship",
+          "url": "/en-GB/leagues/9428/overview/african-nations-championship"
+        },
+        {
+          "name": "Arab Club Champions Cup",
+          "url": "/en-GB/leagues/10474/overview/arab-club-champions-cup"
+        },
+        {
+          "name": "ASEAN Championship",
+          "url": "/en-GB/leagues/9265/overview/asean-championship"
+        },
+        {
+          "name": "Asian Cup",
+          "url": "/en-GB/leagues/290/overview/asian-cup"
+        },
+        {
+          "name": "Asian Cup  Qualification Playoff",
+          "url": "/en-GB/leagues/10609/overview/asian-cup-qualification-playoff"
+        },
+        {
+          "name": "Asian Games",
+          "url": "/en-GB/leagues/9833/overview/asian-games"
+        },
+        {
+          "name": "Beta Squad vs Amp Charity",
+          "url": "/en-GB/leagues/10656/overview/beta-squad-vs-amp-charity"
+        },
+        {
+          "name": "CAF Champions League",
+          "url": "/en-GB/leagues/526/overview/caf-champions-league"
+        }
+      ]
+    },
+    {
+      "section": "Albania",
+      "leagues": [
+        {
+          "name": "Kategoria Superiore",
+          "url": "/en-GB/leagues/260/overview/kategoria-superiore"
+        },
+        {
+          "name": "Superiore Qualification",
+          "url": "/en-GB/leagues/9173/overview/superiore-qualification"
+        },
+        {
+          "name": "Superkupa e Shqipërisë",
+          "url": "/en-GB/leagues/10175/overview/superkupa-e-shqiperise"
+        }
+      ]
+    },
+    {
+      "section": "Algeria",
+      "leagues": [
+        {
+          "name": "Ligue 1",
+          "url": "/en-GB/leagues/516/overview/ligue-1"
+        }
+      ]
+    },
+    {
+      "section": "Argentina",
+      "leagues": [
+        {
+          "name": "Liga Profesional",
+          "url": "/en-GB/leagues/112/overview/liga-profesional"
+        },
+        {
+          "name": "Primera B Nacional",
+          "url": "/en-GB/leagues/8965/overview/primera-b-nacional"
+        },
+        {
+          "name": "Primera B Metropolitana & Torneo Federal A",
+          "url": "/en-GB/leagues/9213/overview/primera-b-metropolitana-torneo-federal"
+        },
+        {
+          "name": "Copa Argentina",
+          "url": "/en-GB/leagues/9305/overview/copa-argentina"
+        },
+        {
+          "name": "Super Cup",
+          "url": "/en-GB/leagues/9381/overview/super-cup"
+        },
+        {
+          "name": "Argentina Promotion/Relegation",
+          "url": "/en-GB/leagues/9170/overview/argentina-promotionrelegation"
+        },
+        {
+          "name": "Copa de la Liga Profesional",
+          "url": "/en-GB/leagues/10007/overview/copa-de-la-liga-profesional"
+        },
+        {
+          "name": "Supercopa",
+          "url": "/en-GB/leagues/10832/overview/supercopa"
+        },
+        {
+          "name": "Torneo de Verano",
+          "url": "/en-GB/leagues/10075/overview/torneo-de-verano"
+        },
+        {
+          "name": "Trofeo de Campeones",
+          "url": "/en-GB/leagues/10053/overview/trofeo-de-campeones"
+        }
+      ]
+    },
+    {
+      "section": "Armenia",
+      "leagues": [
+        {
+          "name": "Premier League",
+          "url": "/en-GB/leagues/118/overview/premier-league"
+        }
+      ]
+    },
+    {
+      "section": "Australia",
+      "leagues": [
+        {
+          "name": "A-League",
+          "url": "/en-GB/leagues/113/overview/league"
+        },
+        {
+          "name": "A-League Women",
+          "url": "/en-GB/leagues/9495/overview/league-women"
+        },
+        {
+          "name": "Australia Cup",
+          "url": "/en-GB/leagues/9471/overview/australia-cup"
+        }
+      ]
+    },
+    {
+      "section": "Austria",
+      "leagues": [
+        {
+          "name": "Bundesliga",
+          "url": "/en-GB/leagues/38/overview/bundesliga"
+        },
+        {
+          "name": "2. Liga",
+          "url": "/en-GB/leagues/119/overview/2-liga"
+        },
+        {
+          "name": "Austrian Cup",
+          "url": "/en-GB/leagues/278/overview/austrian-cup"
+        },
+        {
+          "name": "Landesliga",
+          "url": "/en-GB/leagues/285/overview/landesliga"
+        }
+      ]
+    },
+    {
+      "section": "Azerbaijan",
+      "leagues": [
+        {
+          "name": "Premier League",
+          "url": "/en-GB/leagues/262/overview/premier-league"
+        }
+      ]
+    },
+    {
+      "section": "Bangladesh",
+      "leagues": [
+        {
+          "name": "Premier League",
+          "url": "/en-GB/leagues/10443/overview/premier-league"
+        }
+      ]
+    },
+    {
+      "section": "Belarus",
+      "leagues": [
+        {
+          "name": "Premier League",
+          "url": "/en-GB/leagues/263/overview/premier-league"
+        },
+        {
+          "name": "Premier League qualification",
+          "url": "/en-GB/leagues/9255/overview/premier-league-qualification"
+        },
+        {
+          "name": "Belarusian Cup",
+          "url": "/en-GB/leagues/9521/overview/belarusian-cup"
+        },
+        {
+          "name": "Super Cup",
+          "url": "/en-GB/leagues/9658/overview/super-cup"
+        }
+      ]
+    },
+    {
+      "section": "Belgium",
+      "leagues": [
+        {
+          "name": "First Division A",
+          "url": "/en-GB/leagues/40/overview/first-division"
+        },
+        {
+          "name": "Belgian Cup",
+          "url": "/en-GB/leagues/149/overview/belgian-cup"
+        },
+        {
+          "name": "First Division A Qualification",
+          "url": "/en-GB/leagues/41/overview/first-division-qualification"
+        },
+        {
+          "name": "First Division B",
+          "url": "/en-GB/leagues/264/overview/first-division-b"
+        },
+        {
+          "name": "Super Cup",
+          "url": "/en-GB/leagues/266/overview/super-cup"
+        }
+      ]
+    },
+    {
+      "section": "Bolivia",
+      "leagues": [
+        {
+          "name": "Primera Division",
+          "url": "/en-GB/leagues/144/overview/primera-division"
+        },
+        {
+          "name": "Primera Division Qualification",
+          "url": "/en-GB/leagues/9334/overview/primera-division-qualification"
+        }
+      ]
+    },
+    {
+      "section": "Brazil",
+      "leagues": [
+        {
+          "name": "Serie A",
+          "url": "/en-GB/leagues/268/overview/serie"
+        },
+        {
+          "name": "Serie B",
+          "url": "/en-GB/leagues/8814/overview/serie-b"
+        },
+        {
+          "name": "Serie C",
+          "url": "/en-GB/leagues/8971/overview/serie-c"
+        },
+        {
+          "name": "Copa do Brasil",
+          "url": "/en-GB/leagues/9067/overview/copa-do-brasil"
+        },
+        {
+          "name": "Copa do Nordeste",
+          "url": "/en-GB/leagues/9429/overview/copa-do-nordeste"
+        },
+        {
+          "name": "Supercopa do Brasil",
+          "url": "/en-GB/leagues/10077/overview/supercopa-do-brasil"
+        },
+        {
+          "name": "Baiano",
+          "url": "/en-GB/leagues/10290/overview/baiano"
+        },
+        {
+          "name": "Carioca",
+          "url": "/en-GB/leagues/10272/overview/carioca"
+        },
+        {
+          "name": "Gaúcho",
+          "url": "/en-GB/leagues/10274/overview/gaucho"
+        },
+        {
+          "name": "Goiano",
+          "url": "/en-GB/leagues/10291/overview/goiano"
+        },
+        {
+          "name": "Mineiro",
+          "url": "/en-GB/leagues/10273/overview/mineiro"
+        },
+        {
+          "name": "Paulista A1",
+          "url": "/en-GB/leagues/10244/overview/paulista-a1"
+        },
+        {
+          "name": "Recopa Gaúcha",
+          "url": "/en-GB/leagues/10078/overview/recopa-gaucha"
+        },
+        {
+          "name": "Serie D",
+          "url": "/en-GB/leagues/9464/overview/serie-d"
+        }
+      ]
+    },
+    {
+      "section": "Bulgaria",
+      "leagues": [
+        {
+          "name": "First Professional League",
+          "url": "/en-GB/leagues/270/overview/first-professional-league"
+        },
+        {
+          "name": "Bulgarian Cup",
+          "url": "/en-GB/leagues/271/overview/bulgarian-cup"
+        },
+        {
+          "name": "First professional league Qualification",
+          "url": "/en-GB/leagues/9584/overview/first-professional-league-qualification"
+        },
+        {
+          "name": "Second Professional League",
+          "url": "/en-GB/leagues/9096/overview/second-professional-league"
+        },
+        {
+          "name": "Super Cup",
+          "url": "/en-GB/leagues/272/overview/super-cup"
+        }
+      ]
+    },
+    {
+      "section": "Canada",
+      "leagues": [
+        {
+          "name": "Premier League",
+          "url": "/en-GB/leagues/9986/overview/premier-league"
+        },
+        {
+          "name": "Canadian Championship",
+          "url": "/en-GB/leagues/9837/overview/canadian-championship"
+        },
+        {
+          "name": "Northern Super League",
+          "url": "/en-GB/leagues/10872/overview/northern-super-league"
+        }
+      ]
+    },
+    {
+      "section": "Chile",
+      "leagues": [
+        {
+          "name": "Primera Division",
+          "url": "/en-GB/leagues/273/overview/primera-division"
+        },
+        {
+          "name": "Copa Chile",
+          "url": "/en-GB/leagues/9091/overview/copa-chile"
+        },
+        {
+          "name": "Primera B",
+          "url": "/en-GB/leagues/9126/overview/primera-b"
+        },
+        {
+          "name": "Super Cup",
+          "url": "/en-GB/leagues/9407/overview/super-cup"
+        }
+      ]
+    },
+    {
+      "section": "China",
+      "leagues": [
+        {
+          "name": "Super League",
+          "url": "/en-GB/leagues/120/overview/super-league"
+        },
+        {
+          "name": "China League One",
+          "url": "/en-GB/leagues/9137/overview/china-league-one"
+        },
+        {
+          "name": "Chinese FA Cup",
+          "url": "/en-GB/leagues/9550/overview/chinese-fa-cup"
+        },
+        {
+          "name": "Super Cup",
+          "url": "/en-GB/leagues/9491/overview/super-cup"
+        }
+      ]
+    },
+    {
+      "section": "Colombia",
+      "leagues": [
+        {
+          "name": "Copa Colombia",
+          "url": "/en-GB/leagues/9490/overview/copa-colombia"
+        },
+        {
+          "name": "Primera A",
+          "url": "/en-GB/leagues/274/overview/primera"
+        },
+        {
+          "name": "Primera B",
+          "url": "/en-GB/leagues/9125/overview/primera-b"
+        }
+      ]
+    },
+    {
+      "section": "Costa Rica",
+      "leagues": [
+        {
+          "name": "Primera Division",
+          "url": "/en-GB/leagues/121/overview/primera-division"
+        },
+        {
+          "name": "Super cup",
+          "url": "/en-GB/leagues/10223/overview/super-cup"
+        }
+      ]
+    },
+    {
+      "section": "Croatia",
+      "leagues": [
+        {
+          "name": "HNL",
+          "url": "/en-GB/leagues/252/overview/hnl"
+        },
+        {
+          "name": "Croatian Cup",
+          "url": "/en-GB/leagues/275/overview/croatian-cup"
+        },
+        {
+          "name": "Super Cup",
+          "url": "/en-GB/leagues/276/overview/super-cup"
+        }
+      ]
+    },
+    {
+      "section": "Cyprus",
+      "leagues": [
+        {
+          "name": "1. Division",
+          "url": "/en-GB/leagues/136/overview/1-division"
+        },
+        {
+          "name": "2. Division",
+          "url": "/en-GB/leagues/9100/overview/2-division"
+        },
+        {
+          "name": "Cyprus Cup",
+          "url": "/en-GB/leagues/330/overview/cyprus-cup"
+        },
+        {
+          "name": "Super Cup",
+          "url": "/en-GB/leagues/521/overview/super-cup"
+        }
+      ]
+    },
+    {
+      "section": "Czech Republic",
+      "leagues": [
+        {
+          "name": "1. Liga",
+          "url": "/en-GB/leagues/122/overview/1-liga"
+        },
+        {
+          "name": "1. Liga qualification",
+          "url": "/en-GB/leagues/10025/overview/1-liga-qualification"
+        },
+        {
+          "name": "FNL",
+          "url": "/en-GB/leagues/253/overview/fnl"
+        }
+      ]
+    },
+    {
+      "section": "Denmark",
+      "leagues": [
+        {
+          "name": "Superligaen",
+          "url": "/en-GB/leagues/46/overview/superligaen"
+        },
+        {
+          "name": "1. Division",
+          "url": "/en-GB/leagues/85/overview/1-division"
+        },
+        {
+          "name": "2. Division",
+          "url": "/en-GB/leagues/239/overview/2-division"
+        },
+        {
+          "name": "3. Division",
+          "url": "/en-GB/leagues/240/overview/3-division"
+        },
+        {
+          "name": "Danmarksserien",
+          "url": "/en-GB/leagues/241/overview/danmarksserien"
+        },
+        {
+          "name": "DBU Pokalen",
+          "url": "/en-GB/leagues/242/overview/dbu-pokalen"
+        },
+        {
+          "name": "Kvindeligaen",
+          "url": "/en-GB/leagues/256/overview/kvindeligaen"
+        }
+      ]
+    },
+    {
+      "section": "Ecuador",
+      "leagues": [
+        {
+          "name": "Copa Ecuador",
+          "url": "/en-GB/leagues/10046/overview/copa-ecuador"
+        },
+        {
+          "name": "Serie A",
+          "url": "/en-GB/leagues/246/overview/serie"
+        },
+        {
+          "name": "Supercopa de Ecuador",
+          "url": "/en-GB/leagues/11035/overview/supercopa-de-ecuador"
+        }
+      ]
+    },
+    {
+      "section": "Egypt",
+      "leagues": [
+        {
+          "name": "Premier League",
+          "url": "/en-GB/leagues/519/overview/premier-league"
+        },
+        {
+          "name": "Egypt Cup",
+          "url": "/en-GB/leagues/9941/overview/egypt-cup"
+        },
+        {
+          "name": "League Cup",
+          "url": "/en-GB/leagues/10270/overview/league-cup"
+        },
+        {
+          "name": "Super Cup",
+          "url": "/en-GB/leagues/10314/overview/super-cup"
+        }
+      ]
+    },
+    {
+      "section": "El Salvador",
+      "leagues": [
+        {
+          "name": "Primera Division",
+          "url": "/en-GB/leagues/335/overview/primera-division"
+        }
+      ]
+    },
+    {
+      "section": "England",
+      "leagues": [
+        {
+          "name": "Premier League",
+          "url": "/en-GB/leagues/47/overview/premier-league"
+        },
+        {
+          "name": "Championship",
+          "url": "/en-GB/leagues/48/overview/championship"
+        },
+        {
+          "name": "League One",
+          "url": "/en-GB/leagues/108/overview/league-one"
+        },
+        {
+          "name": "League Two",
+          "url": "/en-GB/leagues/109/overview/league-two"
+        },
+        {
+          "name": "National League",
+          "url": "/en-GB/leagues/117/overview/national-league"
+        },
+        {
+          "name": "National North & South",
+          "url": "/en-GB/leagues/8944/overview/national-north-south"
+        },
+        {
+          "name": "Premier Division",
+          "url": "/en-GB/leagues/8947/overview/premier-division"
+        },
+        {
+          "name": "Premier League 2 Div 1",
+          "url": "/en-GB/leagues/9084/overview/premier-league-2-div-1"
+        },
+        {
+          "name": "Premier League 2 Div 2",
+          "url": "/en-GB/leagues/10176/overview/premier-league-2-div-2"
+        },
+        {
+          "name": "Community Shield",
+          "url": "/en-GB/leagues/247/overview/community-shield"
+        },
+        {
+          "name": "FA Cup",
+          "url": "/en-GB/leagues/132/overview/fa-cup"
+        },
+        {
+          "name": "EFL Cup",
+          "url": "/en-GB/leagues/133/overview/efl-cup"
+        },
+        {
+          "name": "FA Cup Qualification",
+          "url": "/en-GB/leagues/10626/overview/fa-cup-qualification"
+        },
+        {
+          "name": "EFL Trophy",
+          "url": "/en-GB/leagues/142/overview/efl-trophy"
+        },
+        {
+          "name": "FA Trophy",
+          "url": "/en-GB/leagues/9253/overview/fa-trophy"
+        },
+        {
+          "name": "Premier League U18",
+          "url": "/en-GB/leagues/10068/overview/premier-league-u18"
+        },
+        {
+          "name": "WSL",
+          "url": "/en-GB/leagues/9227/overview/wsl"
+        },
+        {
+          "name": "FA Cup (Women)",
+          "url": "/en-GB/leagues/10082/overview/fa-cup-women"
+        },
+        {
+          "name": "Women's League Cup",
+          "url": "/en-GB/leagues/9717/overview/womens-league-cup"
+        },
+        {
+          "name": "WSL 2",
+          "url": "/en-GB/leagues/9294/overview/wsl-2"
+        }
+      ]
+    },
+    {
+      "section": "Estonia",
+      "leagues": [
+        {
+          "name": "Premium liiga",
+          "url": "/en-GB/leagues/248/overview/premium-liiga"
+        },
+        {
+          "name": "Meistriliiga Qualification",
+          "url": "/en-GB/leagues/10034/overview/meistriliiga-qualification"
+        },
+        {
+          "name": "Super Cup",
+          "url": "/en-GB/leagues/9069/overview/super-cup"
+        }
+      ]
+    },
+    {
+      "section": "Faroe Islands",
+      "leagues": [
+        {
+          "name": "Løgmanssteypið",
+          "url": "/en-GB/leagues/9523/overview/logmanssteypi"
+        },
+        {
+          "name": "Premier League",
+          "url": "/en-GB/leagues/250/overview/premier-league"
+        }
+      ]
+    },
+    {
+      "section": "Finland",
+      "leagues": [
+        {
+          "name": "Veikkausliiga",
+          "url": "/en-GB/leagues/51/overview/veikkausliiga"
+        },
+        {
+          "name": "Veikkausliiga Qualification",
+          "url": "/en-GB/leagues/52/overview/veikkausliiga-qualification"
+        },
+        {
+          "name": "Ykkosliiga",
+          "url": "/en-GB/leagues/251/overview/ykkosliiga"
+        },
+        {
+          "name": "Suomen Cup",
+          "url": "/en-GB/leagues/143/overview/suomen-cup"
+        },
+        {
+          "name": "Ykkonen",
+          "url": "/en-GB/leagues/8969/overview/ykkonen"
+        },
+        {
+          "name": "Kansallinen (Women)",
+          "url": "/en-GB/leagues/10174/overview/kansallinen-women"
+        },
+        {
+          "name": "Kansallinen Qualification (Women)",
+          "url": "/en-GB/leagues/10186/overview/kansallinen-qualification-women"
+        },
+        {
+          "name": "Finland Cup",
+          "url": "/en-GB/leagues/342/overview/finland-cup"
+        },
+        {
+          "name": "Ykkosliiga Qualification",
+          "url": "/en-GB/leagues/10713/overview/ykkosliiga-qualification"
+        }
+      ]
+    },
+    {
+      "section": "France",
+      "leagues": [
+        {
+          "name": "Ligue 1",
+          "url": "/en-GB/leagues/53/overview/ligue-1"
+        },
+        {
+          "name": "Ligue 2",
+          "url": "/en-GB/leagues/110/overview/ligue-2"
+        },
+        {
+          "name": "National",
+          "url": "/en-GB/leagues/8970/overview/national"
+        },
+        {
+          "name": "Coupe de France",
+          "url": "/en-GB/leagues/134/overview/coupe-de-france"
+        },
+        {
+          "name": "Ligue 1 Qualification",
+          "url": "/en-GB/leagues/9666/overview/ligue-1-qualification"
+        },
+        {
+          "name": "Ligue 2 Qualification",
+          "url": "/en-GB/leagues/9667/overview/ligue-2-qualification"
+        },
+        {
+          "name": "Première Ligue Féminine",
+          "url": "/en-GB/leagues/9677/overview/premiere-ligue-feminine"
+        },
+        {
+          "name": "Trophée des champions",
+          "url": "/en-GB/leagues/207/overview/trophee-des-champions"
+        }
+      ]
+    },
+    {
+      "section": "Georgia",
+      "leagues": [
+        {
+          "name": "Erovnuli Liga",
+          "url": "/en-GB/leagues/439/overview/erovnuli-liga"
+        },
+        {
+          "name": "Erovnuli Qualification",
+          "url": "/en-GB/leagues/9310/overview/erovnuli-qualification"
+        }
+      ]
+    },
+    {
+      "section": "Germany",
+      "leagues": [
+        {
+          "name": "Bundesliga",
+          "url": "/en-GB/leagues/54/overview/bundesliga"
+        },
+        {
+          "name": "2. Bundesliga",
+          "url": "/en-GB/leagues/146/overview/2-bundesliga"
+        },
+        {
+          "name": "3. Liga",
+          "url": "/en-GB/leagues/208/overview/3-liga"
+        },
+        {
+          "name": "DFB Pokal",
+          "url": "/en-GB/leagues/209/overview/dfb-pokal"
+        },
+        {
+          "name": "Regionalliga",
+          "url": "/en-GB/leagues/512/overview/regionalliga"
+        },
+        {
+          "name": "Bundesliga Qualification",
+          "url": "/en-GB/leagues/9081/overview/bundesliga-qualification"
+        },
+        {
+          "name": "2. Bundesliga Qualification",
+          "url": "/en-GB/leagues/9734/overview/2-bundesliga-qualification"
+        },
+        {
+          "name": "Regionalliga Qualification",
+          "url": "/en-GB/leagues/10022/overview/regionalliga-qualification"
+        },
+        {
+          "name": "Super Cup",
+          "url": "/en-GB/leagues/8924/overview/super-cup"
+        },
+        {
+          "name": "Frauen Bundesliga",
+          "url": "/en-GB/leagues/9676/overview/frauen-bundesliga"
+        },
+        {
+          "name": "Baller League",
+          "url": "/en-GB/leagues/10840/overview/baller-league"
+        },
+        {
+          "name": "DFB Pokal Frauen",
+          "url": "/en-GB/leagues/10650/overview/dfb-pokal-frauen"
+        },
+        {
+          "name": "Supercup der Frauen",
+          "url": "/en-GB/leagues/11034/overview/supercup-der-frauen"
+        }
+      ]
+    },
+    {
+      "section": "Ghana",
+      "leagues": [
+        {
+          "name": "Premier League",
+          "url": "/en-GB/leagues/522/overview/premier-league"
+        }
+      ]
+    },
+    {
+      "section": "Greece",
+      "leagues": [
+        {
+          "name": "Super League 1",
+          "url": "/en-GB/leagues/135/overview/super-league-1"
+        },
+        {
+          "name": "Greece Cup",
+          "url": "/en-GB/leagues/145/overview/greece-cup"
+        },
+        {
+          "name": "Super League 2",
+          "url": "/en-GB/leagues/8815/overview/super-league-2"
+        }
+      ]
+    },
+    {
+      "section": "Guatemala",
+      "leagues": [
+        {
+          "name": "Liga Nacional",
+          "url": "/en-GB/leagues/336/overview/liga-nacional"
+        }
+      ]
+    },
+    {
+      "section": "Honduras",
+      "leagues": [
+        {
+          "name": "Liga Nacional",
+          "url": "/en-GB/leagues/337/overview/liga-nacional"
+        }
+      ]
+    },
+    {
+      "section": "Hungary",
+      "leagues": [
+        {
+          "name": "Nemzeti Bajnokság I",
+          "url": "/en-GB/leagues/212/overview/nemzeti-bajnoksag-i"
+        },
+        {
+          "name": "Magyar Kupa",
+          "url": "/en-GB/leagues/213/overview/magyar-kupa"
+        }
+      ]
+    }
+  ],
+  "debug": [
+    "Found 88 countries: International, Albania, Algeria, Argentina, Armenia, Australia, Austria, Azerbaijan, Bangladesh, Belarus, Belgium, Bolivia, Brazil, Bulgaria, Canada, Chile, China, Colombia, Costa Rica, Croatia, Cyprus, Czech Republic, Denmark, Ecuador, Egypt, El Salvador, England, Estonia, Faroe Islands, Finland, France, Georgia, Germany, Ghana, Greece, Guatemala, Honduras, Hungary, Iceland, India, Indonesia, Iran, Iraq, Ireland, Israel, Italy, Japan, Kazakhstan, Kuwait, Latvia, Lithuania, Luxembourg, Malaysia, Mexico, Moldova, Montenegro, Morocco, Netherlands, New Zealand, Northern Ireland, Norway, Panama, Paraguay, Peru, Poland, Portugal, Qatar, Romania, Russia, Saudi Arabia, Scotland, Serbia, Singapore, Slovakia, Slovenia, South Africa, South Korea, Spain, Sweden, Switzerland, Thailand, Tunisia, Ukraine, United States, Uruguay, Venezuela, Vietnam, Wales"
+  ]
+}
