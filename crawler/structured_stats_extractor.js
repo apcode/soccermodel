@@ -62,6 +62,60 @@ class StructuredStatsExtractor {
         return null;
     }
 
+    parsePlayerStatValue(header, value) {
+        if (!value || value === '-' || value === '') return null;
+        
+        const headerLower = header.toLowerCase();
+        const valueStr = value.toString().trim();
+        
+        // Handle ratio patterns like "2/3 (67%)" -> [2, 3, 67]
+        const ratioMatch = valueStr.match(/(\d+)\/(\d+)\s*\((\d+)%\)/);
+        if (ratioMatch) {
+            return [parseInt(ratioMatch[1]), parseInt(ratioMatch[2]), parseInt(ratioMatch[3])];
+        }
+        
+        // Handle percentage patterns like "79/84 (94%)" -> [79, 94] for accurate passes
+        const accurateMatch = valueStr.match(/(\d+)\/\d+\s*\((\d+)%\)/);
+        if (accurateMatch && (headerLower.includes('accurate') || headerLower.includes('passes'))) {
+            return [parseInt(accurateMatch[1]), parseInt(accurateMatch[2])];
+        }
+        
+        // Handle simple ratios like "3/3 (100%)" for tackles -> [3, 100]  
+        const simpleRatioMatch = valueStr.match(/(\d+)\/\d+\s*\((\d+)%\)/);
+        if (simpleRatioMatch && (headerLower.includes('tackles') || headerLower.includes('dribbles') || 
+                                headerLower.includes('duels') || headerLower.includes('aerial'))) {
+            return [parseInt(simpleRatioMatch[1]), parseInt(simpleRatioMatch[2])];
+        }
+        
+        // Float values (ratings, xG, xA, Goals prevented, etc.)
+        if (headerLower.includes('rating') || headerLower.includes('xg') || headerLower.includes('xa') ||
+            headerLower.includes('prevented') || headerLower.includes('faced')) {
+            const num = parseFloat(valueStr);
+            if (!isNaN(num)) return num;
+        }
+        
+        // Integer values
+        if (headerLower.includes('minutes') || headerLower.includes('goals') || headerLower.includes('assists') ||
+            headerLower.includes('shots') || headerLower.includes('touches') || headerLower.includes('chances') ||
+            headerLower.includes('recoveries') || headerLower.includes('interceptions') || 
+            headerLower.includes('blocks') || headerLower.includes('clearances') || headerLower.includes('saves') ||
+            headerLower.includes('conceded') || headerLower.includes('cards') || headerLower.includes('fouls') ||
+            headerLower.includes('fouled') || headerLower.includes('dribbled') || headerLower.includes('duels') ||
+            headerLower.includes('contributions') || headerLower.includes('created') || headerLower.includes('final') ||
+            headerLower.includes('crosses') || headerLower.includes('throws') || headerLower.includes('offsides') ||
+            headerLower.includes('sweeper') || headerLower.includes('claim') || headerLower.includes('headed')) {
+            
+            // Extract first number from string
+            const numMatch = valueStr.match(/(\d+)/);
+            if (numMatch) {
+                return parseInt(numMatch[1]);
+            }
+        }
+        
+        // Return original value if no parsing needed
+        return value;
+    }
+
     async extractMatchInfo() {
         console.log('Extracting basic match information...');
         
@@ -356,6 +410,67 @@ class StructuredStatsExtractor {
                 await this.humanDelay(1500, 2500);
                 
                 const tableData = await this.page.evaluate(() => {
+                    // Parse player stat values function
+                    function parsePlayerStatValue(header, value) {
+                        if (!value || value === '-' || value === '') return null;
+                        
+                        const headerLower = header.toLowerCase();
+                        const valueStr = value.toString().trim();
+                        
+                        // Handle ratio patterns like "2/3 (67%)" -> [2, 3, 67]
+                        const ratioMatch = valueStr.match(/(\d+)\/(\d+)\s*\((\d+)%\)/);
+                        if (ratioMatch) {
+                            return [parseInt(ratioMatch[1]), parseInt(ratioMatch[2]), parseInt(ratioMatch[3])];
+                        }
+                        
+                        // Handle percentage patterns like "79/84 (94%)" -> [79, 94] for accurate passes
+                        const accurateMatch = valueStr.match(/(\d+)\/\d+\s*\((\d+)%\)/);
+                        if (accurateMatch && (headerLower.includes('accurate') || headerLower.includes('passes'))) {
+                            return [parseInt(accurateMatch[1]), parseInt(accurateMatch[2])];
+                        }
+                        
+                        // Handle simple ratios like "3/3 (100%)" for tackles -> [3, 100]  
+                        const simpleRatioMatch = valueStr.match(/(\d+)\/\d+\s*\((\d+)%\)/);
+                        if (simpleRatioMatch && (headerLower.includes('tackles') || headerLower.includes('dribbles') || 
+                                                headerLower.includes('duels') || headerLower.includes('aerial'))) {
+                            return [parseInt(simpleRatioMatch[1]), parseInt(simpleRatioMatch[2])];
+                        }
+                        
+                        // Float values (ratings, xG, xA, Goals prevented, etc.)
+                        if (headerLower.includes('rating') || headerLower.includes('xg') || headerLower.includes('xa') ||
+                            headerLower.includes('prevented') || headerLower.includes('faced')) {
+                            const num = parseFloat(valueStr);
+                            if (!isNaN(num)) return num;
+                        }
+                        
+                        // Special case: fields that should be integer 0 when "0" but arrays when non-zero
+                        if (valueStr === '0' && (headerLower.includes('successful dribbles') || 
+                                                headerLower.includes('accurate long balls'))) {
+                            return 0;
+                        }
+                        
+                        // Integer values
+                        if (headerLower.includes('minutes') || headerLower.includes('goals') || headerLower.includes('assists') ||
+                            headerLower.includes('shots') || headerLower.includes('touches') || headerLower.includes('chances') ||
+                            headerLower.includes('recoveries') || headerLower.includes('interceptions') || 
+                            headerLower.includes('blocks') || headerLower.includes('clearances') || headerLower.includes('saves') ||
+                            headerLower.includes('conceded') || headerLower.includes('cards') || headerLower.includes('fouls') ||
+                            headerLower.includes('fouled') || headerLower.includes('dribbled') || headerLower.includes('duels') ||
+                            headerLower.includes('contributions') || headerLower.includes('created') || headerLower.includes('final') ||
+                            headerLower.includes('crosses') || headerLower.includes('throws') || headerLower.includes('offsides') ||
+                            headerLower.includes('sweeper') || headerLower.includes('claim') || headerLower.includes('headed')) {
+                            
+                            // Extract first number from string
+                            const numMatch = valueStr.match(/(\d+)/);
+                            if (numMatch) {
+                                return parseInt(numMatch[1]);
+                            }
+                        }
+                        
+                        // Return original value if no parsing needed
+                        return value;
+                    }
+
                     const tables = document.querySelectorAll('table');
                     
                     for (const table of tables) {
@@ -371,18 +486,8 @@ class StructuredStatsExtractor {
                                     if (cells[i] !== undefined) {
                                         let value = cells[i];
                                         
-                                        // Parse numeric values
-                                        if (header.toLowerCase().includes('rating') || 
-                                            header.toLowerCase().includes('xg') || 
-                                            header.toLowerCase().includes('xa') ||
-                                            header.toLowerCase().includes('minutes') ||
-                                            header.toLowerCase().includes('goals') ||
-                                            header.toLowerCase().includes('assists')) {
-                                            const num = parseFloat(value);
-                                            if (!isNaN(num)) {
-                                                value = num;
-                                            }
-                                        }
+                                        // Parse different value types based on header and content
+                                        value = parsePlayerStatValue(header, value);
                                         
                                         player[header] = value;
                                     }

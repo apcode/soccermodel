@@ -1,6 +1,6 @@
 {
   "matchUrl": "https://www.fotmob.com/en-GB/matches/liverpool-vs-aston-villa/2ydbmv#4193892",
-  "extractedAt": "2025-08-23T14:42:42.800Z",
+  "extractedAt": "2025-08-23T15:06:52.747Z",
   "matchInfo": {
     "homeTeam": "Aston Villa",
     "awayTeam": "Liverpool",
@@ -290,7 +290,7 @@
           "xG": 0.4,
           "xA": 0,
           "xG + xA": 0.4,
-          "Defensive contributions": "3"
+          "Defensive contributions": 3
         },
         {
           "Player": "Moussa Diaby",
@@ -301,7 +301,7 @@
           "xG": 0.44,
           "xA": 0.42,
           "xG + xA": 0.86,
-          "Defensive contributions": "1"
+          "Defensive contributions": 1
         },
         {
           "Player": "Cody Gakpo",
@@ -312,7 +312,7 @@
           "xG": 1.07,
           "xA": 0.02,
           "xG + xA": 1.09,
-          "Defensive contributions": "2"
+          "Defensive contributions": 2
         },
         {
           "Player": "Jarell Quansah",
@@ -323,7 +323,7 @@
           "xG": 0.1,
           "xA": 0.01,
           "xG + xA": 0.11,
-          "Defensive contributions": "13"
+          "Defensive contributions": 13
         },
         {
           "Player": "Wataru Endo",
@@ -334,7 +334,7 @@
           "xG": 0,
           "xA": 0.02,
           "xG + xA": 0.02,
-          "Defensive contributions": "9"
+          "Defensive contributions": 9
         },
         {
           "Player": "Leon Bailey",
@@ -345,7 +345,7 @@
           "xG": 0.16,
           "xA": 0.97,
           "xG + xA": 1.13,
-          "Defensive contributions": "1"
+          "Defensive contributions": 1
         },
         {
           "Player": "Harvey Elliott",
@@ -356,7 +356,7 @@
           "xG": 0,
           "xA": 0.16,
           "xG + xA": 0.16,
-          "Defensive contributions": "1"
+          "Defensive contributions": 1
         },
         {
           "Player": "John McGinn",
@@ -367,7 +367,7 @@
           "xG": 0.04,
           "xA": 0.25,
           "xG + xA": 0.29,
-          "Defensive contributions": "2"
+          "Defensive contributions": 2
         },
         {
           "Player": "Calum Chambers",
@@ -378,7 +378,7 @@
           "xG": 0,
           "xA": 0,
           "xG + xA": 0,
-          "Defensive contributions": "2"
+          "Defensive contributions": 2
         },
         {
           "Player": "Ollie Watkins",
@@ -389,7 +389,7 @@
           "xG": 0.54,
           "xA": 0.06,
           "xG + xA": 0.6,
-          "Defensive contributions": "0"
+          "Defensive contributions": 0
         },
         {
           "Player": "Luis Diaz",
@@ -400,7 +400,7 @@
           "xG": 0,
           "xA": 0.08,
           "xG + xA": 0.08,
-          "Defensive contributions": "3"
+          "Defensive contributions": 3
         },
         {
           "Player": "Mohamed Salah",
@@ -411,7 +411,7 @@
           "xG": 0.06,
           "xA": 0.13,
           "xG + xA": 0.19,
-          "Defensive contributions": "1"
+          "Defensive contributions": 1
         },
         {
           "Player": "Youri Tielemans",
@@ -422,7 +422,7 @@
           "xG": 0.19,
           "xA": 0.09,
           "xG + xA": 0.28,
-          "Defensive contributions": "4"
+          "Defensive contributions": 4
         },
         {
           "Player": "Joseph Gomez",
@@ -433,7 +433,7 @@
           "xG": 0.1,
           "xA": 0.01,
           "xG + xA": 0.11,
-          "Defensive contributions": "4"
+          "Defensive contributions": 4
         },
         {
           "Player": "Ryan Gravenberch",
@@ -444,7 +444,7 @@
           "xG": 0,
           "xA": 0.04,
           "xG + xA": 0.04,
-          "Defensive contributions": "1"
+          "Defensive contributions": 1
         },
         {
           "Player": "Lucas Digne",
@@ -455,7 +455,7 @@
           "xG": 0.01,
           "xA": 0.06,
           "xG + xA": 0.07,
-          "Defensive contributions": "5"
+          "Defensive contributions": 5
         },
         {
           "Player": "Nicolo Zaniolo",
@@ -466,7 +466,7 @@
           "xG": 0.26,
           "xA": 0.05,
           "xG + xA": 0.31,
-          "Defensive contributions": "0"
+          "Defensive contributions": 0
         },
         {
           "Player": "Virgil van Dijk",
@@ -477,7 +477,7 @@
           "xG": 0,
           "xA": 0.01,
           "xG + xA": 0.01,
-          "Defensive contributions": "9"
+          "Defensive contributions": 9
         },
         {
           "Player": "Ezri Konsa",
@@ -488,7 +488,7 @@
           "xG": 0,
           "xA": 0.04,
           "xG + xA": 0.04,
-          "Defensive contributions": "8"
+          "Defensive contributions": 8
         },
         {
           "Player": "Trent Alexander-Arnold",
@@ -499,7 +499,7 @@
           "xG": 0.06,
           "xA": 0.04,
           "xG + xA": 0.1,
-          "Defensive contributions": "5"
+          "Defensive contributions": 5
         },
         {
           "Player": "Darwin Nunez",
@@ -510,7 +510,7 @@
           "xG": 0.03,
           "xA": 0,
           "xG + xA": 0.03,
-          "Defensive contributions": "0"
+          "Defensive contributions": 0
         },
         {
           "Player": "Dominik Szoboszlai",
@@ -521,7 +521,7 @@
           "xG": 0.26,
           "xA": 0.02,
           "xG + xA": 0.28,
-          "Defensive contributions": "0"
+          "Defensive contributions": 0
         },
         {
           "Player": "Douglas Luiz",
@@ -532,7 +532,7 @@
           "xG": 0.12,
           "xA": 0.01,
           "xG + xA": 0.13,
-          "Defensive contributions": "1"
+          "Defensive contributions": 1
         },
         {
           "Player": "Pau Torres",
@@ -543,7 +543,7 @@
           "xG": 0.01,
           "xA": 0.01,
           "xG + xA": 0.02,
-          "Defensive contributions": "6"
+          "Defensive contributions": 6
         },
         {
           "Player": "Curtis Jones",
@@ -554,7 +554,7 @@
           "xG": 0.06,
           "xA": 0,
           "xG + xA": 0.06,
-          "Defensive contributions": "1"
+          "Defensive contributions": 1
         },
         {
           "Player": "Alexis Mac Allister",
@@ -565,7 +565,7 @@
           "xG": 0.08,
           "xA": 0.37,
           "xG + xA": 0.45,
-          "Defensive contributions": "3"
+          "Defensive contributions": 3
         },
         {
           "Player": "Alisson Becker",
@@ -576,7 +576,7 @@
           "xG": 0,
           "xA": 0,
           "xG + xA": 0,
-          "Defensive contributions": "0"
+          "Defensive contributions": 0
         },
         {
           "Player": "Emiliano Martinez",
@@ -587,7 +587,7 @@
           "xG": 0,
           "xA": 0,
           "xG + xA": 0,
-          "Defensive contributions": "1"
+          "Defensive contributions": 1
         },
         {
           "Player": "Diego Carlos",
@@ -598,7 +598,7 @@
           "xG": 1,
           "xA": 0.01,
           "xG + xA": 1.01,
-          "Defensive contributions": "4"
+          "Defensive contributions": 4
         }
       ],
       "playerCount": 29
@@ -621,319 +621,455 @@
           "Goals": 2,
           "xG": 0.4,
           "xGOT": 0.4,
-          "Total shots": "3",
-          "Shots on target": "2/3 (67%)",
-          "Successful dribbles": "0",
-          "Big chances missed": "0",
-          "Touches in opposition box": "2"
+          "Total shots": 3,
+          "Shots on target": [
+            2,
+            3,
+            67
+          ],
+          "Successful dribbles": 0,
+          "Big chances missed": 0,
+          "Touches in opposition box": 2
         },
         {
           "Player": "Cody Gakpo",
           "Goals": 1,
           "xG": 1.07,
           "xGOT": 0.94,
-          "Total shots": "2",
-          "Shots on target": "1/2 (50%)",
-          "Successful dribbles": "2/2 (100%)",
-          "Big chances missed": "0",
-          "Touches in opposition box": "2"
+          "Total shots": 2,
+          "Shots on target": [
+            1,
+            2,
+            50
+          ],
+          "Successful dribbles": [
+            2,
+            2,
+            100
+          ],
+          "Big chances missed": 0,
+          "Touches in opposition box": 2
         },
         {
           "Player": "Jarell Quansah",
           "Goals": 1,
           "xG": 0.1,
           "xGOT": 0.57,
-          "Total shots": "1",
-          "Shots on target": "1/1 (100%)",
-          "Successful dribbles": "0",
-          "Big chances missed": "0",
-          "Touches in opposition box": "1"
+          "Total shots": 1,
+          "Shots on target": [
+            1,
+            1,
+            100
+          ],
+          "Successful dribbles": 0,
+          "Big chances missed": 0,
+          "Touches in opposition box": 1
         },
         {
           "Player": "Youri Tielemans",
           "Goals": 1,
           "xG": 0.19,
           "xGOT": 0.2,
-          "Total shots": "1",
-          "Shots on target": "1/1 (100%)",
-          "Successful dribbles": "1/1 (100%)",
-          "Big chances missed": "0",
-          "Touches in opposition box": "1"
+          "Total shots": 1,
+          "Shots on target": [
+            1,
+            1,
+            100
+          ],
+          "Successful dribbles": [
+            1,
+            1,
+            100
+          ],
+          "Big chances missed": 0,
+          "Touches in opposition box": 1
         },
         {
           "Player": "Moussa Diaby",
           "Goals": 0,
           "xG": 0.44,
           "xGOT": 0.06,
-          "Total shots": "3",
-          "Shots on target": "1/3 (33%)",
-          "Successful dribbles": "4/6 (67%)",
-          "Big chances missed": "0",
-          "Touches in opposition box": "10"
+          "Total shots": 3,
+          "Shots on target": [
+            1,
+            3,
+            33
+          ],
+          "Successful dribbles": [
+            4,
+            6,
+            67
+          ],
+          "Big chances missed": 0,
+          "Touches in opposition box": 10
         },
         {
           "Player": "Wataru Endo",
           "Goals": 0,
           "xG": 0,
           "xGOT": 0,
-          "Total shots": "0",
-          "Shots on target": "0",
-          "Successful dribbles": "1/1 (100%)",
-          "Big chances missed": "0",
-          "Touches in opposition box": "0"
+          "Total shots": 0,
+          "Shots on target": 0,
+          "Successful dribbles": [
+            1,
+            1,
+            100
+          ],
+          "Big chances missed": 0,
+          "Touches in opposition box": 0
         },
         {
           "Player": "Leon Bailey",
           "Goals": 0,
           "xG": 0.16,
           "xGOT": 0,
-          "Total shots": "3",
-          "Shots on target": "0/3 (0%)",
-          "Successful dribbles": "5/7 (71%)",
-          "Big chances missed": "0",
-          "Touches in opposition box": "9"
+          "Total shots": 3,
+          "Shots on target": [
+            0,
+            3,
+            0
+          ],
+          "Successful dribbles": [
+            5,
+            7,
+            71
+          ],
+          "Big chances missed": 0,
+          "Touches in opposition box": 9
         },
         {
           "Player": "Harvey Elliott",
           "Goals": 0,
           "xG": 0,
           "xGOT": 0,
-          "Total shots": "0",
-          "Shots on target": "0",
-          "Successful dribbles": "0/1 (0%)",
-          "Big chances missed": "0",
-          "Touches in opposition box": "2"
+          "Total shots": 0,
+          "Shots on target": 0,
+          "Successful dribbles": [
+            0,
+            1,
+            0
+          ],
+          "Big chances missed": 0,
+          "Touches in opposition box": 2
         },
         {
           "Player": "John McGinn",
           "Goals": 0,
           "xG": 0.04,
           "xGOT": 0,
-          "Total shots": "1",
-          "Shots on target": "0/1 (0%)",
-          "Successful dribbles": "3/4 (75%)",
-          "Big chances missed": "0",
-          "Touches in opposition box": "1"
+          "Total shots": 1,
+          "Shots on target": [
+            0,
+            1,
+            0
+          ],
+          "Successful dribbles": [
+            3,
+            4,
+            75
+          ],
+          "Big chances missed": 0,
+          "Touches in opposition box": 1
         },
         {
           "Player": "Calum Chambers",
           "Goals": 0,
           "xG": 0,
           "xGOT": 0,
-          "Total shots": "0",
-          "Shots on target": "0",
-          "Successful dribbles": "0",
-          "Big chances missed": "0",
-          "Touches in opposition box": "0"
+          "Total shots": 0,
+          "Shots on target": 0,
+          "Successful dribbles": 0,
+          "Big chances missed": 0,
+          "Touches in opposition box": 0
         },
         {
           "Player": "Ollie Watkins",
           "Goals": 0,
           "xG": 0.54,
           "xGOT": 0.46,
-          "Total shots": "2",
-          "Shots on target": "0/2 (0%)",
-          "Successful dribbles": "1/2 (50%)",
-          "Big chances missed": "1",
-          "Touches in opposition box": "8"
+          "Total shots": 2,
+          "Shots on target": [
+            0,
+            2,
+            0
+          ],
+          "Successful dribbles": [
+            1,
+            2,
+            50
+          ],
+          "Big chances missed": 1,
+          "Touches in opposition box": 8
         },
         {
           "Player": "Luis Diaz",
           "Goals": 0,
           "xG": 0,
           "xGOT": 0,
-          "Total shots": "0",
-          "Shots on target": "0",
-          "Successful dribbles": "1/1 (100%)",
-          "Big chances missed": "0",
-          "Touches in opposition box": "3"
+          "Total shots": 0,
+          "Shots on target": 0,
+          "Successful dribbles": [
+            1,
+            1,
+            100
+          ],
+          "Big chances missed": 0,
+          "Touches in opposition box": 3
         },
         {
           "Player": "Mohamed Salah",
           "Goals": 0,
           "xG": 0.06,
           "xGOT": 0,
-          "Total shots": "1",
-          "Shots on target": "0/1 (0%)",
-          "Successful dribbles": "2/2 (100%)",
-          "Big chances missed": "0",
-          "Touches in opposition box": "5"
+          "Total shots": 1,
+          "Shots on target": [
+            0,
+            1,
+            0
+          ],
+          "Successful dribbles": [
+            2,
+            2,
+            100
+          ],
+          "Big chances missed": 0,
+          "Touches in opposition box": 5
         },
         {
           "Player": "Joseph Gomez",
           "Goals": 0,
           "xG": 0.1,
           "xGOT": 0.15,
-          "Total shots": "2",
-          "Shots on target": "1/2 (50%)",
-          "Successful dribbles": "1/1 (100%)",
-          "Big chances missed": "0",
-          "Touches in opposition box": "2"
+          "Total shots": 2,
+          "Shots on target": [
+            1,
+            2,
+            50
+          ],
+          "Successful dribbles": [
+            1,
+            1,
+            100
+          ],
+          "Big chances missed": 0,
+          "Touches in opposition box": 2
         },
         {
           "Player": "Ryan Gravenberch",
           "Goals": 0,
           "xG": 0,
           "xGOT": 0,
-          "Total shots": "0",
-          "Shots on target": "0",
-          "Successful dribbles": "1/1 (100%)",
-          "Big chances missed": "0",
-          "Touches in opposition box": "2"
+          "Total shots": 0,
+          "Shots on target": 0,
+          "Successful dribbles": [
+            1,
+            1,
+            100
+          ],
+          "Big chances missed": 0,
+          "Touches in opposition box": 2
         },
         {
           "Player": "Lucas Digne",
           "Goals": 0,
           "xG": 0.01,
           "xGOT": 0,
-          "Total shots": "1",
-          "Shots on target": "0/1 (0%)",
-          "Successful dribbles": "2/5 (40%)",
-          "Big chances missed": "0",
-          "Touches in opposition box": "1"
+          "Total shots": 1,
+          "Shots on target": [
+            0,
+            1,
+            0
+          ],
+          "Successful dribbles": [
+            2,
+            5,
+            40
+          ],
+          "Big chances missed": 0,
+          "Touches in opposition box": 1
         },
         {
           "Player": "Nicolo Zaniolo",
           "Goals": 0,
           "xG": 0.26,
           "xGOT": 0.07,
-          "Total shots": "1",
-          "Shots on target": "1/1 (100%)",
-          "Successful dribbles": "0",
-          "Big chances missed": "0",
-          "Touches in opposition box": "2"
+          "Total shots": 1,
+          "Shots on target": [
+            1,
+            1,
+            100
+          ],
+          "Successful dribbles": 0,
+          "Big chances missed": 0,
+          "Touches in opposition box": 2
         },
         {
           "Player": "Virgil van Dijk",
           "Goals": 0,
           "xG": 0,
           "xGOT": 0,
-          "Total shots": "0",
-          "Shots on target": "0",
-          "Successful dribbles": "0",
-          "Big chances missed": "0",
-          "Touches in opposition box": "1"
+          "Total shots": 0,
+          "Shots on target": 0,
+          "Successful dribbles": 0,
+          "Big chances missed": 0,
+          "Touches in opposition box": 1
         },
         {
           "Player": "Ezri Konsa",
           "Goals": 0,
           "xG": 0,
           "xGOT": 0,
-          "Total shots": "0",
-          "Shots on target": "0",
-          "Successful dribbles": "0",
-          "Big chances missed": "0",
-          "Touches in opposition box": "1"
+          "Total shots": 0,
+          "Shots on target": 0,
+          "Successful dribbles": 0,
+          "Big chances missed": 0,
+          "Touches in opposition box": 1
         },
         {
           "Player": "Trent Alexander-Arnold",
           "Goals": 0,
           "xG": 0.06,
           "xGOT": 0.04,
-          "Total shots": "2",
-          "Shots on target": "1/2 (50%)",
-          "Successful dribbles": "0",
-          "Big chances missed": "0",
-          "Touches in opposition box": "0"
+          "Total shots": 2,
+          "Shots on target": [
+            1,
+            2,
+            50
+          ],
+          "Successful dribbles": 0,
+          "Big chances missed": 0,
+          "Touches in opposition box": 0
         },
         {
           "Player": "Darwin Nunez",
           "Goals": 0,
           "xG": 0.03,
           "xGOT": 0.19,
-          "Total shots": "1",
-          "Shots on target": "1/1 (100%)",
-          "Successful dribbles": "0",
-          "Big chances missed": "0",
-          "Touches in opposition box": "1"
+          "Total shots": 1,
+          "Shots on target": [
+            1,
+            1,
+            100
+          ],
+          "Successful dribbles": 0,
+          "Big chances missed": 0,
+          "Touches in opposition box": 1
         },
         {
           "Player": "Dominik Szoboszlai",
           "Goals": 0,
           "xG": 0.26,
           "xGOT": 0.09,
-          "Total shots": "2",
-          "Shots on target": "1/2 (50%)",
-          "Successful dribbles": "0",
-          "Big chances missed": "0",
-          "Touches in opposition box": "3"
+          "Total shots": 2,
+          "Shots on target": [
+            1,
+            2,
+            50
+          ],
+          "Successful dribbles": 0,
+          "Big chances missed": 0,
+          "Touches in opposition box": 3
         },
         {
           "Player": "Douglas Luiz",
           "Goals": 0,
           "xG": 0.12,
           "xGOT": 0,
-          "Total shots": "1",
-          "Shots on target": "0/1 (0%)",
-          "Successful dribbles": "1/2 (50%)",
-          "Big chances missed": "0",
-          "Touches in opposition box": "1"
+          "Total shots": 1,
+          "Shots on target": [
+            0,
+            1,
+            0
+          ],
+          "Successful dribbles": [
+            1,
+            2,
+            50
+          ],
+          "Big chances missed": 0,
+          "Touches in opposition box": 1
         },
         {
           "Player": "Pau Torres",
           "Goals": 0,
           "xG": 0.01,
           "xGOT": 0,
-          "Total shots": "1",
-          "Shots on target": "0/1 (0%)",
-          "Successful dribbles": "0",
-          "Big chances missed": "0",
-          "Touches in opposition box": "2"
+          "Total shots": 1,
+          "Shots on target": [
+            0,
+            1,
+            0
+          ],
+          "Successful dribbles": 0,
+          "Big chances missed": 0,
+          "Touches in opposition box": 2
         },
         {
           "Player": "Curtis Jones",
           "Goals": 0,
           "xG": 0.06,
           "xGOT": 0.22,
-          "Total shots": "1",
-          "Shots on target": "1/1 (100%)",
-          "Successful dribbles": "0",
-          "Big chances missed": "0",
-          "Touches in opposition box": "1"
+          "Total shots": 1,
+          "Shots on target": [
+            1,
+            1,
+            100
+          ],
+          "Successful dribbles": 0,
+          "Big chances missed": 0,
+          "Touches in opposition box": 1
         },
         {
           "Player": "Alexis Mac Allister",
           "Goals": 0,
           "xG": 0.08,
           "xGOT": 0,
-          "Total shots": "2",
-          "Shots on target": "0/2 (0%)",
-          "Successful dribbles": "0",
-          "Big chances missed": "0",
-          "Touches in opposition box": "3"
+          "Total shots": 2,
+          "Shots on target": [
+            0,
+            2,
+            0
+          ],
+          "Successful dribbles": 0,
+          "Big chances missed": 0,
+          "Touches in opposition box": 3
         },
         {
           "Player": "Alisson Becker",
           "Goals": 0,
           "xG": 0,
           "xGOT": 0,
-          "Total shots": "0",
-          "Shots on target": "0",
-          "Successful dribbles": "0",
-          "Big chances missed": "0",
-          "Touches in opposition box": "0"
+          "Total shots": 0,
+          "Shots on target": 0,
+          "Successful dribbles": 0,
+          "Big chances missed": 0,
+          "Touches in opposition box": 0
         },
         {
           "Player": "Emiliano Martinez",
           "Goals": 0,
           "xG": 0,
           "xGOT": 0,
-          "Total shots": "0",
-          "Shots on target": "0",
-          "Successful dribbles": "0",
-          "Big chances missed": "0",
-          "Touches in opposition box": "0"
+          "Total shots": 0,
+          "Shots on target": 0,
+          "Successful dribbles": 0,
+          "Big chances missed": 0,
+          "Touches in opposition box": 0
         },
         {
           "Player": "Diego Carlos",
           "Goals": 0,
           "xG": 1,
           "xGOT": 0,
-          "Total shots": "2",
-          "Shots on target": "0/2 (0%)",
-          "Successful dribbles": "0",
-          "Big chances missed": "1",
-          "Touches in opposition box": "2"
+          "Total shots": 2,
+          "Shots on target": [
+            0,
+            2,
+            0
+          ],
+          "Successful dribbles": 0,
+          "Big chances missed": 1,
+          "Touches in opposition box": 2
         }
       ],
       "playerCount": 29
@@ -953,322 +1089,562 @@
       "players": [
         {
           "Player": "Virgil van Dijk",
-          "Touches": "98",
-          "Accurate passes": "79/84 (94%)",
+          "Touches": 98,
+          "Accurate passes": [
+            79,
+            84,
+            94
+          ],
           "Assists": 0,
           "xA": 0.01,
-          "Chances created": "0",
-          "Passes into final third": "4",
-          "Accurate crosses": "0",
-          "Accurate long balls": "2/4 (50%)"
+          "Chances created": 0,
+          "Passes into final third": 4,
+          "Accurate crosses": 0,
+          "Accurate long balls": [
+            2,
+            4,
+            50
+          ]
         },
         {
           "Player": "Jarell Quansah",
-          "Touches": "90",
-          "Accurate passes": "68/74 (92%)",
+          "Touches": 90,
+          "Accurate passes": [
+            68,
+            74,
+            92
+          ],
           "Assists": 0,
           "xA": 0.01,
-          "Chances created": "0",
-          "Passes into final third": "6",
-          "Accurate crosses": "0",
-          "Accurate long balls": "3/8 (38%)"
+          "Chances created": 0,
+          "Passes into final third": 6,
+          "Accurate crosses": 0,
+          "Accurate long balls": [
+            3,
+            8,
+            38
+          ]
         },
         {
           "Player": "Trent Alexander-Arnold",
-          "Touches": "84",
-          "Accurate passes": "51/60 (85%)",
+          "Touches": 84,
+          "Accurate passes": [
+            51,
+            60,
+            85
+          ],
           "Assists": 0,
           "xA": 0.04,
-          "Chances created": "1",
-          "Passes into final third": "10",
-          "Accurate crosses": "3/8 (38%)",
-          "Accurate long balls": "5/9 (56%)"
+          "Chances created": 1,
+          "Passes into final third": 10,
+          "Accurate crosses": [
+            3,
+            8,
+            38
+          ],
+          "Accurate long balls": [
+            5,
+            9,
+            56
+          ]
         },
         {
           "Player": "Alexis Mac Allister",
-          "Touches": "82",
-          "Accurate passes": "60/68 (88%)",
+          "Touches": 82,
+          "Accurate passes": [
+            60,
+            68,
+            88
+          ],
           "Assists": 0,
           "xA": 0.37,
-          "Chances created": "1",
-          "Passes into final third": "9",
-          "Accurate crosses": "0/1 (0%)",
-          "Accurate long balls": "1/1 (100%)"
+          "Chances created": 1,
+          "Passes into final third": 9,
+          "Accurate crosses": [
+            0,
+            1,
+            0
+          ],
+          "Accurate long balls": [
+            1,
+            1,
+            100
+          ]
         },
         {
           "Player": "Joseph Gomez",
-          "Touches": "74",
-          "Accurate passes": "47/51 (92%)",
+          "Touches": 74,
+          "Accurate passes": [
+            47,
+            51,
+            92
+          ],
           "Assists": 0,
           "xA": 0.01,
-          "Chances created": "0",
-          "Passes into final third": "3",
-          "Accurate crosses": "0/1 (0%)",
-          "Accurate long balls": "2/2 (100%)"
+          "Chances created": 0,
+          "Passes into final third": 3,
+          "Accurate crosses": [
+            0,
+            1,
+            0
+          ],
+          "Accurate long balls": [
+            2,
+            2,
+            100
+          ]
         },
         {
           "Player": "Lucas Digne",
-          "Touches": "71",
-          "Accurate passes": "28/39 (72%)",
+          "Touches": 71,
+          "Accurate passes": [
+            28,
+            39,
+            72
+          ],
           "Assists": 0,
           "xA": 0.06,
-          "Chances created": "1",
-          "Passes into final third": "10",
-          "Accurate crosses": "2/6 (33%)",
-          "Accurate long balls": "2/6 (33%)"
+          "Chances created": 1,
+          "Passes into final third": 10,
+          "Accurate crosses": [
+            2,
+            6,
+            33
+          ],
+          "Accurate long balls": [
+            2,
+            6,
+            33
+          ]
         },
         {
           "Player": "Wataru Endo",
-          "Touches": "66",
-          "Accurate passes": "50/55 (91%)",
+          "Touches": 66,
+          "Accurate passes": [
+            50,
+            55,
+            91
+          ],
           "Assists": 0,
           "xA": 0.02,
-          "Chances created": "0",
-          "Passes into final third": "6",
-          "Accurate crosses": "0",
-          "Accurate long balls": "2/3 (67%)"
+          "Chances created": 0,
+          "Passes into final third": 6,
+          "Accurate crosses": 0,
+          "Accurate long balls": [
+            2,
+            3,
+            67
+          ]
         },
         {
           "Player": "Diego Carlos",
-          "Touches": "66",
-          "Accurate passes": "54/58 (93%)",
+          "Touches": 66,
+          "Accurate passes": [
+            54,
+            58,
+            93
+          ],
           "Assists": 0,
           "xA": 0.01,
-          "Chances created": "0",
-          "Passes into final third": "5",
-          "Accurate crosses": "0",
-          "Accurate long balls": "3/6 (50%)"
+          "Chances created": 0,
+          "Passes into final third": 5,
+          "Accurate crosses": 0,
+          "Accurate long balls": [
+            3,
+            6,
+            50
+          ]
         },
         {
           "Player": "Ezri Konsa",
-          "Touches": "60",
-          "Accurate passes": "32/35 (91%)",
+          "Touches": 60,
+          "Accurate passes": [
+            32,
+            35,
+            91
+          ],
           "Assists": 0,
           "xA": 0.04,
-          "Chances created": "0",
-          "Passes into final third": "2",
-          "Accurate crosses": "0/1 (0%)",
-          "Accurate long balls": "0/1 (0%)"
+          "Chances created": 0,
+          "Passes into final third": 2,
+          "Accurate crosses": [
+            0,
+            1,
+            0
+          ],
+          "Accurate long balls": [
+            0,
+            1,
+            0
+          ]
         },
         {
           "Player": "Pau Torres",
-          "Touches": "60",
-          "Accurate passes": "44/48 (92%)",
+          "Touches": 60,
+          "Accurate passes": [
+            44,
+            48,
+            92
+          ],
           "Assists": 0,
           "xA": 0.01,
-          "Chances created": "0",
-          "Passes into final third": "2",
-          "Accurate crosses": "0",
-          "Accurate long balls": "4/6 (67%)"
+          "Chances created": 0,
+          "Passes into final third": 2,
+          "Accurate crosses": 0,
+          "Accurate long balls": [
+            4,
+            6,
+            67
+          ]
         },
         {
           "Player": "Harvey Elliott",
-          "Touches": "55",
-          "Accurate passes": "40/46 (87%)",
+          "Touches": 55,
+          "Accurate passes": [
+            40,
+            46,
+            87
+          ],
           "Assists": 1,
           "xA": 0.16,
-          "Chances created": "2",
-          "Passes into final third": "6",
-          "Accurate crosses": "1/3 (33%)",
-          "Accurate long balls": "1/3 (33%)"
+          "Chances created": 2,
+          "Passes into final third": 6,
+          "Accurate crosses": [
+            1,
+            3,
+            33
+          ],
+          "Accurate long balls": [
+            1,
+            3,
+            33
+          ]
         },
         {
           "Player": "Douglas Luiz",
-          "Touches": "55",
-          "Accurate passes": "39/44 (89%)",
+          "Touches": 55,
+          "Accurate passes": [
+            39,
+            44,
+            89
+          ],
           "Assists": 0,
           "xA": 0.01,
-          "Chances created": "1",
-          "Passes into final third": "1",
-          "Accurate crosses": "0/2 (0%)",
-          "Accurate long balls": "1/3 (33%)"
+          "Chances created": 1,
+          "Passes into final third": 1,
+          "Accurate crosses": [
+            0,
+            2,
+            0
+          ],
+          "Accurate long balls": [
+            1,
+            3,
+            33
+          ]
         },
         {
           "Player": "Emiliano Martinez",
-          "Touches": "55",
-          "Accurate passes": "30/36 (83%)",
+          "Touches": 55,
+          "Accurate passes": [
+            30,
+            36,
+            83
+          ],
           "Assists": 0,
           "xA": 0,
-          "Chances created": "0",
-          "Passes into final third": "2",
-          "Accurate crosses": "0",
-          "Accurate long balls": "2/8 (25%)"
+          "Chances created": 0,
+          "Passes into final third": 2,
+          "Accurate crosses": 0,
+          "Accurate long balls": [
+            2,
+            8,
+            25
+          ]
         },
         {
           "Player": "John McGinn",
-          "Touches": "53",
-          "Accurate passes": "28/31 (90%)",
+          "Touches": 53,
+          "Accurate passes": [
+            28,
+            31,
+            90
+          ],
           "Assists": 0,
           "xA": 0.25,
-          "Chances created": "2",
-          "Passes into final third": "7",
-          "Accurate crosses": "2/3 (67%)",
-          "Accurate long balls": "2/3 (67%)"
+          "Chances created": 2,
+          "Passes into final third": 7,
+          "Accurate crosses": [
+            2,
+            3,
+            67
+          ],
+          "Accurate long balls": [
+            2,
+            3,
+            67
+          ]
         },
         {
           "Player": "Leon Bailey",
-          "Touches": "43",
-          "Accurate passes": "16/21 (76%)",
+          "Touches": 43,
+          "Accurate passes": [
+            16,
+            21,
+            76
+          ],
           "Assists": 0,
           "xA": 0.97,
-          "Chances created": "3",
-          "Passes into final third": "3",
-          "Accurate crosses": "0",
-          "Accurate long balls": "0"
+          "Chances created": 3,
+          "Passes into final third": 3,
+          "Accurate crosses": 0,
+          "Accurate long balls": 0
         },
         {
           "Player": "Youri Tielemans",
-          "Touches": "42",
-          "Accurate passes": "27/31 (87%)",
+          "Touches": 42,
+          "Accurate passes": [
+            27,
+            31,
+            87
+          ],
           "Assists": 0,
           "xA": 0.09,
-          "Chances created": "0",
-          "Passes into final third": "3",
-          "Accurate crosses": "0",
-          "Accurate long balls": "1/2 (50%)"
+          "Chances created": 0,
+          "Passes into final third": 3,
+          "Accurate crosses": 0,
+          "Accurate long balls": [
+            1,
+            2,
+            50
+          ]
         },
         {
           "Player": "Luis Diaz",
-          "Touches": "42",
-          "Accurate passes": "23/30 (77%)",
+          "Touches": 42,
+          "Accurate passes": [
+            23,
+            30,
+            77
+          ],
           "Assists": 0,
           "xA": 0.08,
-          "Chances created": "4",
-          "Passes into final third": "3",
-          "Accurate crosses": "0",
-          "Accurate long balls": "0/1 (0%)"
+          "Chances created": 4,
+          "Passes into final third": 3,
+          "Accurate crosses": 0,
+          "Accurate long balls": [
+            0,
+            1,
+            0
+          ]
         },
         {
           "Player": "Moussa Diaby",
-          "Touches": "41",
-          "Accurate passes": "21/27 (78%)",
+          "Touches": 41,
+          "Accurate passes": [
+            21,
+            27,
+            78
+          ],
           "Assists": 1,
           "xA": 0.42,
-          "Chances created": "5",
-          "Passes into final third": "2",
-          "Accurate crosses": "0",
-          "Accurate long balls": "0"
+          "Chances created": 5,
+          "Passes into final third": 2,
+          "Accurate crosses": 0,
+          "Accurate long balls": 0
         },
         {
           "Player": "Mohamed Salah",
-          "Touches": "39",
-          "Accurate passes": "17/23 (74%)",
+          "Touches": 39,
+          "Accurate passes": [
+            17,
+            23,
+            74
+          ],
           "Assists": 0,
           "xA": 0.13,
-          "Chances created": "2",
-          "Passes into final third": "1",
-          "Accurate crosses": "1/1 (100%)",
-          "Accurate long balls": "1/1 (100%)"
+          "Chances created": 2,
+          "Passes into final third": 1,
+          "Accurate crosses": [
+            1,
+            1,
+            100
+          ],
+          "Accurate long balls": [
+            1,
+            1,
+            100
+          ]
         },
         {
           "Player": "Cody Gakpo",
-          "Touches": "38",
-          "Accurate passes": "20/25 (80%)",
+          "Touches": 38,
+          "Accurate passes": [
+            20,
+            25,
+            80
+          ],
           "Assists": 0,
           "xA": 0.02,
-          "Chances created": "0",
-          "Passes into final third": "3",
-          "Accurate crosses": "0",
-          "Accurate long balls": "0"
+          "Chances created": 0,
+          "Passes into final third": 3,
+          "Accurate crosses": 0,
+          "Accurate long balls": 0
         },
         {
           "Player": "Alisson Becker",
-          "Touches": "32",
-          "Accurate passes": "24/27 (89%)",
+          "Touches": 32,
+          "Accurate passes": [
+            24,
+            27,
+            89
+          ],
           "Assists": 0,
           "xA": 0,
-          "Chances created": "0",
-          "Passes into final third": "1",
-          "Accurate crosses": "0",
-          "Accurate long balls": "1/3 (33%)"
+          "Chances created": 0,
+          "Passes into final third": 1,
+          "Accurate crosses": 0,
+          "Accurate long balls": [
+            1,
+            3,
+            33
+          ]
         },
         {
           "Player": "Ollie Watkins",
-          "Touches": "28",
-          "Accurate passes": "11/15 (73%)",
+          "Touches": 28,
+          "Accurate passes": [
+            11,
+            15,
+            73
+          ],
           "Assists": 1,
           "xA": 0.06,
-          "Chances created": "2",
-          "Passes into final third": "2",
-          "Accurate crosses": "0",
-          "Accurate long balls": "0"
+          "Chances created": 2,
+          "Passes into final third": 2,
+          "Accurate crosses": 0,
+          "Accurate long balls": 0
         },
         {
           "Player": "Dominik Szoboszlai",
-          "Touches": "27",
-          "Accurate passes": "21/22 (95%)",
+          "Touches": 27,
+          "Accurate passes": [
+            21,
+            22,
+            95
+          ],
           "Assists": 0,
           "xA": 0.02,
-          "Chances created": "1",
-          "Passes into final third": "2",
-          "Accurate crosses": "0",
-          "Accurate long balls": "1/1 (100%)"
+          "Chances created": 1,
+          "Passes into final third": 2,
+          "Accurate crosses": 0,
+          "Accurate long balls": [
+            1,
+            1,
+            100
+          ]
         },
         {
           "Player": "Ryan Gravenberch",
-          "Touches": "9",
-          "Accurate passes": "4/5 (80%)",
+          "Touches": 9,
+          "Accurate passes": [
+            4,
+            5,
+            80
+          ],
           "Assists": 0,
           "xA": 0.04,
-          "Chances created": "1",
-          "Passes into final third": "1",
-          "Accurate crosses": "0",
-          "Accurate long balls": "0"
+          "Chances created": 1,
+          "Passes into final third": 1,
+          "Accurate crosses": 0,
+          "Accurate long balls": 0
         },
         {
           "Player": "Darwin Nunez",
-          "Touches": "9",
-          "Accurate passes": "4/5 (80%)",
+          "Touches": 9,
+          "Accurate passes": [
+            4,
+            5,
+            80
+          ],
           "Assists": 0,
           "xA": 0,
-          "Chances created": "0",
-          "Passes into final third": "1",
-          "Accurate crosses": "0/1 (0%)",
-          "Accurate long balls": "1/1 (100%)"
+          "Chances created": 0,
+          "Passes into final third": 1,
+          "Accurate crosses": [
+            0,
+            1,
+            0
+          ],
+          "Accurate long balls": [
+            1,
+            1,
+            100
+          ]
         },
         {
           "Player": "Calum Chambers",
-          "Touches": "8",
-          "Accurate passes": "3/6 (50%)",
+          "Touches": 8,
+          "Accurate passes": [
+            3,
+            6,
+            50
+          ],
           "Assists": 1,
           "xA": 0,
-          "Chances created": "1",
-          "Passes into final third": "0",
-          "Accurate crosses": "0",
-          "Accurate long balls": "0"
+          "Chances created": 1,
+          "Passes into final third": 0,
+          "Accurate crosses": 0,
+          "Accurate long balls": 0
         },
         {
           "Player": "Curtis Jones",
-          "Touches": "8",
-          "Accurate passes": "2/2 (100%)",
+          "Touches": 8,
+          "Accurate passes": [
+            2,
+            2,
+            100
+          ],
           "Assists": 0,
           "xA": 0,
-          "Chances created": "0",
-          "Passes into final third": "0",
-          "Accurate crosses": "0",
-          "Accurate long balls": "0"
+          "Chances created": 0,
+          "Passes into final third": 0,
+          "Accurate crosses": 0,
+          "Accurate long balls": 0
         },
         {
           "Player": "Jhon Duran",
-          "Touches": "7",
-          "Accurate passes": "0/0 (0%)",
+          "Touches": 7,
+          "Accurate passes": [
+            0,
+            0,
+            0
+          ],
           "Assists": 0,
           "xA": 0,
-          "Chances created": "0",
-          "Passes into final third": "0",
-          "Accurate crosses": "0",
-          "Accurate long balls": "0"
+          "Chances created": 0,
+          "Passes into final third": 0,
+          "Accurate crosses": 0,
+          "Accurate long balls": 0
         },
         {
           "Player": "Nicolo Zaniolo",
-          "Touches": "6",
-          "Accurate passes": "4/4 (100%)",
+          "Touches": 6,
+          "Accurate passes": [
+            4,
+            4,
+            100
+          ],
           "Assists": 0,
           "xA": 0.05,
-          "Chances created": "1",
-          "Passes into final third": "0",
-          "Accurate crosses": "0/1 (0%)",
-          "Accurate long balls": "0"
+          "Chances created": 1,
+          "Passes into final third": 0,
+          "Accurate crosses": [
+            0,
+            1,
+            0
+          ],
+          "Accurate long balls": 0
         }
       ],
       "playerCount": 29
@@ -1288,322 +1664,438 @@
       "players": [
         {
           "Player": "Jarell Quansah",
-          "Defensive contributions": "13",
-          "Recoveries": "5",
-          "Tackles won": "3/3 (100%)",
-          "Interceptions": "2",
-          "Blocks": "4",
-          "Clearances": "4",
-          "Headed clearance": "2",
-          "Dribbled past": "1"
+          "Defensive contributions": 13,
+          "Recoveries": 5,
+          "Tackles won": [
+            3,
+            3,
+            100
+          ],
+          "Interceptions": 2,
+          "Blocks": 4,
+          "Clearances": 4,
+          "Headed clearance": 2,
+          "Dribbled past": 1
         },
         {
           "Player": "Virgil van Dijk",
-          "Defensive contributions": "9",
-          "Recoveries": "2",
-          "Tackles won": "1/1 (100%)",
-          "Interceptions": "0",
-          "Blocks": "2",
-          "Clearances": "6",
-          "Headed clearance": "2",
-          "Dribbled past": "0"
+          "Defensive contributions": 9,
+          "Recoveries": 2,
+          "Tackles won": [
+            1,
+            1,
+            100
+          ],
+          "Interceptions": 0,
+          "Blocks": 2,
+          "Clearances": 6,
+          "Headed clearance": 2,
+          "Dribbled past": 0
         },
         {
           "Player": "Wataru Endo",
-          "Defensive contributions": "9",
-          "Recoveries": "7",
-          "Tackles won": "2/4 (50%)",
-          "Interceptions": "1",
-          "Blocks": "0",
-          "Clearances": "4",
-          "Headed clearance": "3",
-          "Dribbled past": "2"
+          "Defensive contributions": 9,
+          "Recoveries": 7,
+          "Tackles won": [
+            2,
+            4,
+            50
+          ],
+          "Interceptions": 1,
+          "Blocks": 0,
+          "Clearances": 4,
+          "Headed clearance": 3,
+          "Dribbled past": 2
         },
         {
           "Player": "Ezri Konsa",
-          "Defensive contributions": "8",
-          "Recoveries": "2",
-          "Tackles won": "3/6 (50%)",
-          "Interceptions": "1",
-          "Blocks": "0",
-          "Clearances": "1",
-          "Headed clearance": "0",
-          "Dribbled past": "1"
+          "Defensive contributions": 8,
+          "Recoveries": 2,
+          "Tackles won": [
+            3,
+            6,
+            50
+          ],
+          "Interceptions": 1,
+          "Blocks": 0,
+          "Clearances": 1,
+          "Headed clearance": 0,
+          "Dribbled past": 1
         },
         {
           "Player": "Pau Torres",
-          "Defensive contributions": "6",
-          "Recoveries": "4",
-          "Tackles won": "1/1 (100%)",
-          "Interceptions": "0",
-          "Blocks": "1",
-          "Clearances": "4",
-          "Headed clearance": "0",
-          "Dribbled past": "0"
+          "Defensive contributions": 6,
+          "Recoveries": 4,
+          "Tackles won": [
+            1,
+            1,
+            100
+          ],
+          "Interceptions": 0,
+          "Blocks": 1,
+          "Clearances": 4,
+          "Headed clearance": 0,
+          "Dribbled past": 0
         },
         {
           "Player": "Trent Alexander-Arnold",
-          "Defensive contributions": "5",
-          "Recoveries": "6",
-          "Tackles won": "1/1 (100%)",
-          "Interceptions": "2",
-          "Blocks": "0",
-          "Clearances": "2",
-          "Headed clearance": "1",
-          "Dribbled past": "4"
+          "Defensive contributions": 5,
+          "Recoveries": 6,
+          "Tackles won": [
+            1,
+            1,
+            100
+          ],
+          "Interceptions": 2,
+          "Blocks": 0,
+          "Clearances": 2,
+          "Headed clearance": 1,
+          "Dribbled past": 4
         },
         {
           "Player": "Lucas Digne",
-          "Defensive contributions": "5",
-          "Recoveries": "6",
-          "Tackles won": "0/1 (0%)",
-          "Interceptions": "1",
-          "Blocks": "0",
-          "Clearances": "3",
-          "Headed clearance": "2",
-          "Dribbled past": "1"
+          "Defensive contributions": 5,
+          "Recoveries": 6,
+          "Tackles won": [
+            0,
+            1,
+            0
+          ],
+          "Interceptions": 1,
+          "Blocks": 0,
+          "Clearances": 3,
+          "Headed clearance": 2,
+          "Dribbled past": 1
         },
         {
           "Player": "Joseph Gomez",
-          "Defensive contributions": "4",
-          "Recoveries": "8",
-          "Tackles won": "2/2 (100%)",
-          "Interceptions": "1",
-          "Blocks": "0",
-          "Clearances": "1",
-          "Headed clearance": "1",
-          "Dribbled past": "1"
+          "Defensive contributions": 4,
+          "Recoveries": 8,
+          "Tackles won": [
+            2,
+            2,
+            100
+          ],
+          "Interceptions": 1,
+          "Blocks": 0,
+          "Clearances": 1,
+          "Headed clearance": 1,
+          "Dribbled past": 1
         },
         {
           "Player": "Diego Carlos",
-          "Defensive contributions": "4",
-          "Recoveries": "4",
-          "Tackles won": "0/0 (0%)",
-          "Interceptions": "0",
-          "Blocks": "1",
-          "Clearances": "3",
-          "Headed clearance": "2",
-          "Dribbled past": "1"
+          "Defensive contributions": 4,
+          "Recoveries": 4,
+          "Tackles won": [
+            0,
+            0,
+            0
+          ],
+          "Interceptions": 0,
+          "Blocks": 1,
+          "Clearances": 3,
+          "Headed clearance": 2,
+          "Dribbled past": 1
         },
         {
           "Player": "Youri Tielemans",
-          "Defensive contributions": "4",
-          "Recoveries": "3",
-          "Tackles won": "1/1 (100%)",
-          "Interceptions": "1",
-          "Blocks": "1",
-          "Clearances": "1",
-          "Headed clearance": "0",
-          "Dribbled past": "2"
+          "Defensive contributions": 4,
+          "Recoveries": 3,
+          "Tackles won": [
+            1,
+            1,
+            100
+          ],
+          "Interceptions": 1,
+          "Blocks": 1,
+          "Clearances": 1,
+          "Headed clearance": 0,
+          "Dribbled past": 2
         },
         {
           "Player": "Alexis Mac Allister",
-          "Defensive contributions": "3",
-          "Recoveries": "3",
-          "Tackles won": "2/2 (100%)",
-          "Interceptions": "0",
-          "Blocks": "1",
-          "Clearances": "0",
-          "Headed clearance": "0",
-          "Dribbled past": "4"
+          "Defensive contributions": 3,
+          "Recoveries": 3,
+          "Tackles won": [
+            2,
+            2,
+            100
+          ],
+          "Interceptions": 0,
+          "Blocks": 1,
+          "Clearances": 0,
+          "Headed clearance": 0,
+          "Dribbled past": 4
         },
         {
           "Player": "Luis Diaz",
-          "Defensive contributions": "3",
-          "Recoveries": "5",
-          "Tackles won": "2/3 (67%)",
-          "Interceptions": "0",
-          "Blocks": "0",
-          "Clearances": "0",
-          "Headed clearance": "0",
-          "Dribbled past": "1"
+          "Defensive contributions": 3,
+          "Recoveries": 5,
+          "Tackles won": [
+            2,
+            3,
+            67
+          ],
+          "Interceptions": 0,
+          "Blocks": 0,
+          "Clearances": 0,
+          "Headed clearance": 0,
+          "Dribbled past": 1
         },
         {
           "Player": "Jhon Duran",
-          "Defensive contributions": "3",
-          "Recoveries": "1",
-          "Tackles won": "1/1 (100%)",
-          "Interceptions": "0",
-          "Blocks": "0",
-          "Clearances": "2",
-          "Headed clearance": "1",
-          "Dribbled past": "0"
+          "Defensive contributions": 3,
+          "Recoveries": 1,
+          "Tackles won": [
+            1,
+            1,
+            100
+          ],
+          "Interceptions": 0,
+          "Blocks": 0,
+          "Clearances": 2,
+          "Headed clearance": 1,
+          "Dribbled past": 0
         },
         {
           "Player": "John McGinn",
-          "Defensive contributions": "2",
-          "Recoveries": "7",
-          "Tackles won": "0/1 (0%)",
-          "Interceptions": "0",
-          "Blocks": "0",
-          "Clearances": "1",
-          "Headed clearance": "0",
-          "Dribbled past": "1"
+          "Defensive contributions": 2,
+          "Recoveries": 7,
+          "Tackles won": [
+            0,
+            1,
+            0
+          ],
+          "Interceptions": 0,
+          "Blocks": 0,
+          "Clearances": 1,
+          "Headed clearance": 0,
+          "Dribbled past": 1
         },
         {
           "Player": "Cody Gakpo",
-          "Defensive contributions": "2",
-          "Recoveries": "3",
-          "Tackles won": "0/1 (0%)",
-          "Interceptions": "1",
-          "Blocks": "0",
-          "Clearances": "0",
-          "Headed clearance": "0",
-          "Dribbled past": "2"
+          "Defensive contributions": 2,
+          "Recoveries": 3,
+          "Tackles won": [
+            0,
+            1,
+            0
+          ],
+          "Interceptions": 1,
+          "Blocks": 0,
+          "Clearances": 0,
+          "Headed clearance": 0,
+          "Dribbled past": 2
         },
         {
           "Player": "Calum Chambers",
-          "Defensive contributions": "2",
-          "Recoveries": "2",
-          "Tackles won": "0/1 (0%)",
-          "Interceptions": "1",
-          "Blocks": "0",
-          "Clearances": "0",
-          "Headed clearance": "0",
-          "Dribbled past": "0"
+          "Defensive contributions": 2,
+          "Recoveries": 2,
+          "Tackles won": [
+            0,
+            1,
+            0
+          ],
+          "Interceptions": 1,
+          "Blocks": 0,
+          "Clearances": 0,
+          "Headed clearance": 0,
+          "Dribbled past": 0
         },
         {
           "Player": "Harvey Elliott",
-          "Defensive contributions": "1",
-          "Recoveries": "2",
-          "Tackles won": "0/1 (0%)",
-          "Interceptions": "0",
-          "Blocks": "0",
-          "Clearances": "0",
-          "Headed clearance": "0",
-          "Dribbled past": "1"
+          "Defensive contributions": 1,
+          "Recoveries": 2,
+          "Tackles won": [
+            0,
+            1,
+            0
+          ],
+          "Interceptions": 0,
+          "Blocks": 0,
+          "Clearances": 0,
+          "Headed clearance": 0,
+          "Dribbled past": 1
         },
         {
           "Player": "Douglas Luiz",
-          "Defensive contributions": "1",
-          "Recoveries": "3",
-          "Tackles won": "0/0 (0%)",
-          "Interceptions": "1",
-          "Blocks": "0",
-          "Clearances": "0",
-          "Headed clearance": "0",
-          "Dribbled past": "0"
+          "Defensive contributions": 1,
+          "Recoveries": 3,
+          "Tackles won": [
+            0,
+            0,
+            0
+          ],
+          "Interceptions": 1,
+          "Blocks": 0,
+          "Clearances": 0,
+          "Headed clearance": 0,
+          "Dribbled past": 0
         },
         {
           "Player": "Emiliano Martinez",
-          "Defensive contributions": "1",
-          "Recoveries": "13",
-          "Tackles won": "0/0 (0%)",
-          "Interceptions": "0",
-          "Blocks": "0",
-          "Clearances": "1",
-          "Headed clearance": "0",
-          "Dribbled past": "0"
+          "Defensive contributions": 1,
+          "Recoveries": 13,
+          "Tackles won": [
+            0,
+            0,
+            0
+          ],
+          "Interceptions": 0,
+          "Blocks": 0,
+          "Clearances": 1,
+          "Headed clearance": 0,
+          "Dribbled past": 0
         },
         {
           "Player": "Leon Bailey",
-          "Defensive contributions": "1",
-          "Recoveries": "4",
-          "Tackles won": "1/1 (100%)",
-          "Interceptions": "0",
-          "Blocks": "0",
-          "Clearances": "0",
-          "Headed clearance": "0",
-          "Dribbled past": "1"
+          "Defensive contributions": 1,
+          "Recoveries": 4,
+          "Tackles won": [
+            1,
+            1,
+            100
+          ],
+          "Interceptions": 0,
+          "Blocks": 0,
+          "Clearances": 0,
+          "Headed clearance": 0,
+          "Dribbled past": 1
         },
         {
           "Player": "Moussa Diaby",
-          "Defensive contributions": "1",
-          "Recoveries": "2",
-          "Tackles won": "0/0 (0%)",
-          "Interceptions": "0",
-          "Blocks": "0",
-          "Clearances": "1",
-          "Headed clearance": "0",
-          "Dribbled past": "1"
+          "Defensive contributions": 1,
+          "Recoveries": 2,
+          "Tackles won": [
+            0,
+            0,
+            0
+          ],
+          "Interceptions": 0,
+          "Blocks": 0,
+          "Clearances": 1,
+          "Headed clearance": 0,
+          "Dribbled past": 1
         },
         {
           "Player": "Mohamed Salah",
-          "Defensive contributions": "1",
-          "Recoveries": "1",
-          "Tackles won": "0/1 (0%)",
-          "Interceptions": "0",
-          "Blocks": "0",
-          "Clearances": "0",
-          "Headed clearance": "0",
-          "Dribbled past": "1"
+          "Defensive contributions": 1,
+          "Recoveries": 1,
+          "Tackles won": [
+            0,
+            1,
+            0
+          ],
+          "Interceptions": 0,
+          "Blocks": 0,
+          "Clearances": 0,
+          "Headed clearance": 0,
+          "Dribbled past": 1
         },
         {
           "Player": "Ryan Gravenberch",
-          "Defensive contributions": "1",
-          "Recoveries": "1",
-          "Tackles won": "0/1 (0%)",
-          "Interceptions": "0",
-          "Blocks": "0",
-          "Clearances": "0",
-          "Headed clearance": "0",
-          "Dribbled past": "0"
+          "Defensive contributions": 1,
+          "Recoveries": 1,
+          "Tackles won": [
+            0,
+            1,
+            0
+          ],
+          "Interceptions": 0,
+          "Blocks": 0,
+          "Clearances": 0,
+          "Headed clearance": 0,
+          "Dribbled past": 0
         },
         {
           "Player": "Curtis Jones",
-          "Defensive contributions": "1",
-          "Recoveries": "0",
-          "Tackles won": "0/1 (0%)",
-          "Interceptions": "0",
-          "Blocks": "0",
-          "Clearances": "0",
-          "Headed clearance": "0",
-          "Dribbled past": "0"
+          "Defensive contributions": 1,
+          "Recoveries": 0,
+          "Tackles won": [
+            0,
+            1,
+            0
+          ],
+          "Interceptions": 0,
+          "Blocks": 0,
+          "Clearances": 0,
+          "Headed clearance": 0,
+          "Dribbled past": 0
         },
         {
           "Player": "Alisson Becker",
-          "Defensive contributions": "0",
-          "Recoveries": "4",
-          "Tackles won": "0/0 (0%)",
-          "Interceptions": "0",
-          "Blocks": "0",
-          "Clearances": "0",
-          "Headed clearance": "0",
-          "Dribbled past": "0"
+          "Defensive contributions": 0,
+          "Recoveries": 4,
+          "Tackles won": [
+            0,
+            0,
+            0
+          ],
+          "Interceptions": 0,
+          "Blocks": 0,
+          "Clearances": 0,
+          "Headed clearance": 0,
+          "Dribbled past": 0
         },
         {
           "Player": "Ollie Watkins",
-          "Defensive contributions": "0",
-          "Recoveries": "1",
-          "Tackles won": "0/0 (0%)",
-          "Interceptions": "0",
-          "Blocks": "0",
-          "Clearances": "0",
-          "Headed clearance": "0",
-          "Dribbled past": "0"
+          "Defensive contributions": 0,
+          "Recoveries": 1,
+          "Tackles won": [
+            0,
+            0,
+            0
+          ],
+          "Interceptions": 0,
+          "Blocks": 0,
+          "Clearances": 0,
+          "Headed clearance": 0,
+          "Dribbled past": 0
         },
         {
           "Player": "Dominik Szoboszlai",
-          "Defensive contributions": "0",
-          "Recoveries": "2",
-          "Tackles won": "0/0 (0%)",
-          "Interceptions": "0",
-          "Blocks": "0",
-          "Clearances": "0",
-          "Headed clearance": "0",
-          "Dribbled past": "0"
+          "Defensive contributions": 0,
+          "Recoveries": 2,
+          "Tackles won": [
+            0,
+            0,
+            0
+          ],
+          "Interceptions": 0,
+          "Blocks": 0,
+          "Clearances": 0,
+          "Headed clearance": 0,
+          "Dribbled past": 0
         },
         {
           "Player": "Darwin Nunez",
-          "Defensive contributions": "0",
-          "Recoveries": "1",
-          "Tackles won": "0/0 (0%)",
-          "Interceptions": "0",
-          "Blocks": "0",
-          "Clearances": "0",
-          "Headed clearance": "0",
-          "Dribbled past": "0"
+          "Defensive contributions": 0,
+          "Recoveries": 1,
+          "Tackles won": [
+            0,
+            0,
+            0
+          ],
+          "Interceptions": 0,
+          "Blocks": 0,
+          "Clearances": 0,
+          "Headed clearance": 0,
+          "Dribbled past": 0
         },
         {
           "Player": "Nicolo Zaniolo",
-          "Defensive contributions": "0",
-          "Recoveries": "0",
-          "Tackles won": "0/0 (0%)",
-          "Interceptions": "0",
-          "Blocks": "0",
-          "Clearances": "0",
-          "Headed clearance": "0",
-          "Dribbled past": "0"
+          "Defensive contributions": 0,
+          "Recoveries": 0,
+          "Tackles won": [
+            0,
+            0,
+            0
+          ],
+          "Interceptions": 0,
+          "Blocks": 0,
+          "Clearances": 0,
+          "Headed clearance": 0,
+          "Dribbled past": 0
         }
       ],
       "playerCount": 29
@@ -1623,322 +2115,706 @@
       "players": [
         {
           "Player": "Ezri Konsa",
-          "Duels won": "9",
-          "Duels lost": "3",
-          "Ground duels won": "8/11 (73%)",
-          "Aerial duels won": "1/1 (100%)",
-          "Fouls committed": "0",
-          "Was fouled": "2",
-          "Successful dribbles": "0",
-          "Tackles won": "3/6 (50%)"
+          "Duels won": 9,
+          "Duels lost": 3,
+          "Ground duels won": [
+            8,
+            11,
+            73
+          ],
+          "Aerial duels won": [
+            1,
+            1,
+            100
+          ],
+          "Fouls committed": 0,
+          "Was fouled": 2,
+          "Successful dribbles": 0,
+          "Tackles won": [
+            3,
+            6,
+            50
+          ]
         },
         {
           "Player": "Leon Bailey",
-          "Duels won": "9",
-          "Duels lost": "7",
-          "Ground duels won": "8/14 (57%)",
-          "Aerial duels won": "1/2 (50%)",
-          "Fouls committed": "1",
-          "Was fouled": "2",
-          "Successful dribbles": "5/7 (71%)",
-          "Tackles won": "1/1 (100%)"
+          "Duels won": 9,
+          "Duels lost": 7,
+          "Ground duels won": [
+            8,
+            14,
+            57
+          ],
+          "Aerial duels won": [
+            1,
+            2,
+            50
+          ],
+          "Fouls committed": 1,
+          "Was fouled": 2,
+          "Successful dribbles": [
+            5,
+            7,
+            71
+          ],
+          "Tackles won": [
+            1,
+            1,
+            100
+          ]
         },
         {
           "Player": "Lucas Digne",
-          "Duels won": "8",
-          "Duels lost": "7",
-          "Ground duels won": "6/12 (50%)",
-          "Aerial duels won": "2/3 (67%)",
-          "Fouls committed": "2",
-          "Was fouled": "3",
-          "Successful dribbles": "2/5 (40%)",
-          "Tackles won": "0/1 (0%)"
+          "Duels won": 8,
+          "Duels lost": 7,
+          "Ground duels won": [
+            6,
+            12,
+            50
+          ],
+          "Aerial duels won": [
+            2,
+            3,
+            67
+          ],
+          "Fouls committed": 2,
+          "Was fouled": 3,
+          "Successful dribbles": [
+            2,
+            5,
+            40
+          ],
+          "Tackles won": [
+            0,
+            1,
+            0
+          ]
         },
         {
           "Player": "John McGinn",
-          "Duels won": "7",
-          "Duels lost": "5",
-          "Ground duels won": "7/12 (58%)",
-          "Aerial duels won": "0/0 (0%)",
-          "Fouls committed": "1",
-          "Was fouled": "3",
-          "Successful dribbles": "3/4 (75%)",
-          "Tackles won": "0/1 (0%)"
+          "Duels won": 7,
+          "Duels lost": 5,
+          "Ground duels won": [
+            7,
+            12,
+            58
+          ],
+          "Aerial duels won": [
+            0,
+            0,
+            0
+          ],
+          "Fouls committed": 1,
+          "Was fouled": 3,
+          "Successful dribbles": [
+            3,
+            4,
+            75
+          ],
+          "Tackles won": [
+            0,
+            1,
+            0
+          ]
         },
         {
           "Player": "Wataru Endo",
-          "Duels won": "6",
-          "Duels lost": "4",
-          "Ground duels won": "6/10 (60%)",
-          "Aerial duels won": "0/0 (0%)",
-          "Fouls committed": "2",
-          "Was fouled": "1",
-          "Successful dribbles": "1/1 (100%)",
-          "Tackles won": "2/4 (50%)"
+          "Duels won": 6,
+          "Duels lost": 4,
+          "Ground duels won": [
+            6,
+            10,
+            60
+          ],
+          "Aerial duels won": [
+            0,
+            0,
+            0
+          ],
+          "Fouls committed": 2,
+          "Was fouled": 1,
+          "Successful dribbles": [
+            1,
+            1,
+            100
+          ],
+          "Tackles won": [
+            2,
+            4,
+            50
+          ]
         },
         {
           "Player": "Luis Diaz",
-          "Duels won": "6",
-          "Duels lost": "9",
-          "Ground duels won": "5/14 (36%)",
-          "Aerial duels won": "1/1 (100%)",
-          "Fouls committed": "4",
-          "Was fouled": "1",
-          "Successful dribbles": "1/1 (100%)",
-          "Tackles won": "2/3 (67%)"
+          "Duels won": 6,
+          "Duels lost": 9,
+          "Ground duels won": [
+            5,
+            14,
+            36
+          ],
+          "Aerial duels won": [
+            1,
+            1,
+            100
+          ],
+          "Fouls committed": 4,
+          "Was fouled": 1,
+          "Successful dribbles": [
+            1,
+            1,
+            100
+          ],
+          "Tackles won": [
+            2,
+            3,
+            67
+          ]
         },
         {
           "Player": "Moussa Diaby",
-          "Duels won": "6",
-          "Duels lost": "3",
-          "Ground duels won": "6/9 (67%)",
-          "Aerial duels won": "0/0 (0%)",
-          "Fouls committed": "0",
-          "Was fouled": "2",
-          "Successful dribbles": "4/6 (67%)",
-          "Tackles won": "0/0 (0%)"
+          "Duels won": 6,
+          "Duels lost": 3,
+          "Ground duels won": [
+            6,
+            9,
+            67
+          ],
+          "Aerial duels won": [
+            0,
+            0,
+            0
+          ],
+          "Fouls committed": 0,
+          "Was fouled": 2,
+          "Successful dribbles": [
+            4,
+            6,
+            67
+          ],
+          "Tackles won": [
+            0,
+            0,
+            0
+          ]
         },
         {
           "Player": "Jarell Quansah",
-          "Duels won": "5",
-          "Duels lost": "3",
-          "Ground duels won": "3/5 (60%)",
-          "Aerial duels won": "2/3 (67%)",
-          "Fouls committed": "1",
-          "Was fouled": "0",
-          "Successful dribbles": "0",
-          "Tackles won": "3/3 (100%)"
+          "Duels won": 5,
+          "Duels lost": 3,
+          "Ground duels won": [
+            3,
+            5,
+            60
+          ],
+          "Aerial duels won": [
+            2,
+            3,
+            67
+          ],
+          "Fouls committed": 1,
+          "Was fouled": 0,
+          "Successful dribbles": 0,
+          "Tackles won": [
+            3,
+            3,
+            100
+          ]
         },
         {
           "Player": "Virgil van Dijk",
-          "Duels won": "5",
-          "Duels lost": "3",
-          "Ground duels won": "3/4 (75%)",
-          "Aerial duels won": "2/4 (50%)",
-          "Fouls committed": "1",
-          "Was fouled": "2",
-          "Successful dribbles": "0",
-          "Tackles won": "1/1 (100%)"
+          "Duels won": 5,
+          "Duels lost": 3,
+          "Ground duels won": [
+            3,
+            4,
+            75
+          ],
+          "Aerial duels won": [
+            2,
+            4,
+            50
+          ],
+          "Fouls committed": 1,
+          "Was fouled": 2,
+          "Successful dribbles": 0,
+          "Tackles won": [
+            1,
+            1,
+            100
+          ]
         },
         {
           "Player": "Cody Gakpo",
-          "Duels won": "5",
-          "Duels lost": "7",
-          "Ground duels won": "5/12 (42%)",
-          "Aerial duels won": "0/0 (0%)",
-          "Fouls committed": "3",
-          "Was fouled": "2",
-          "Successful dribbles": "2/2 (100%)",
-          "Tackles won": "0/1 (0%)"
+          "Duels won": 5,
+          "Duels lost": 7,
+          "Ground duels won": [
+            5,
+            12,
+            42
+          ],
+          "Aerial duels won": [
+            0,
+            0,
+            0
+          ],
+          "Fouls committed": 3,
+          "Was fouled": 2,
+          "Successful dribbles": [
+            2,
+            2,
+            100
+          ],
+          "Tackles won": [
+            0,
+            1,
+            0
+          ]
         },
         {
           "Player": "Mohamed Salah",
-          "Duels won": "5",
-          "Duels lost": "5",
-          "Ground duels won": "5/9 (56%)",
-          "Aerial duels won": "0/1 (0%)",
-          "Fouls committed": "1",
-          "Was fouled": "2",
-          "Successful dribbles": "2/2 (100%)",
-          "Tackles won": "0/1 (0%)"
+          "Duels won": 5,
+          "Duels lost": 5,
+          "Ground duels won": [
+            5,
+            9,
+            56
+          ],
+          "Aerial duels won": [
+            0,
+            1,
+            0
+          ],
+          "Fouls committed": 1,
+          "Was fouled": 2,
+          "Successful dribbles": [
+            2,
+            2,
+            100
+          ],
+          "Tackles won": [
+            0,
+            1,
+            0
+          ]
         },
         {
           "Player": "Joseph Gomez",
-          "Duels won": "4",
-          "Duels lost": "2",
-          "Ground duels won": "4/6 (67%)",
-          "Aerial duels won": "0/0 (0%)",
-          "Fouls committed": "1",
-          "Was fouled": "1",
-          "Successful dribbles": "1/1 (100%)",
-          "Tackles won": "2/2 (100%)"
+          "Duels won": 4,
+          "Duels lost": 2,
+          "Ground duels won": [
+            4,
+            6,
+            67
+          ],
+          "Aerial duels won": [
+            0,
+            0,
+            0
+          ],
+          "Fouls committed": 1,
+          "Was fouled": 1,
+          "Successful dribbles": [
+            1,
+            1,
+            100
+          ],
+          "Tackles won": [
+            2,
+            2,
+            100
+          ]
         },
         {
           "Player": "Douglas Luiz",
-          "Duels won": "4",
-          "Duels lost": "2",
-          "Ground duels won": "3/5 (60%)",
-          "Aerial duels won": "1/1 (100%)",
-          "Fouls committed": "1",
-          "Was fouled": "2",
-          "Successful dribbles": "1/2 (50%)",
-          "Tackles won": "0/0 (0%)"
+          "Duels won": 4,
+          "Duels lost": 2,
+          "Ground duels won": [
+            3,
+            5,
+            60
+          ],
+          "Aerial duels won": [
+            1,
+            1,
+            100
+          ],
+          "Fouls committed": 1,
+          "Was fouled": 2,
+          "Successful dribbles": [
+            1,
+            2,
+            50
+          ],
+          "Tackles won": [
+            0,
+            0,
+            0
+          ]
         },
         {
           "Player": "Youri Tielemans",
-          "Duels won": "3",
-          "Duels lost": "3",
-          "Ground duels won": "3/6 (50%)",
-          "Aerial duels won": "0/0 (0%)",
-          "Fouls committed": "0",
-          "Was fouled": "1",
-          "Successful dribbles": "1/1 (100%)",
-          "Tackles won": "1/1 (100%)"
+          "Duels won": 3,
+          "Duels lost": 3,
+          "Ground duels won": [
+            3,
+            6,
+            50
+          ],
+          "Aerial duels won": [
+            0,
+            0,
+            0
+          ],
+          "Fouls committed": 0,
+          "Was fouled": 1,
+          "Successful dribbles": [
+            1,
+            1,
+            100
+          ],
+          "Tackles won": [
+            1,
+            1,
+            100
+          ]
         },
         {
           "Player": "Alexis Mac Allister",
-          "Duels won": "3",
-          "Duels lost": "7",
-          "Ground duels won": "3/9 (33%)",
-          "Aerial duels won": "0/1 (0%)",
-          "Fouls committed": "2",
-          "Was fouled": "1",
-          "Successful dribbles": "0",
-          "Tackles won": "2/2 (100%)"
+          "Duels won": 3,
+          "Duels lost": 7,
+          "Ground duels won": [
+            3,
+            9,
+            33
+          ],
+          "Aerial duels won": [
+            0,
+            1,
+            0
+          ],
+          "Fouls committed": 2,
+          "Was fouled": 1,
+          "Successful dribbles": 0,
+          "Tackles won": [
+            2,
+            2,
+            100
+          ]
         },
         {
           "Player": "Ollie Watkins",
-          "Duels won": "3",
-          "Duels lost": "5",
-          "Ground duels won": "1/5 (20%)",
-          "Aerial duels won": "2/3 (67%)",
-          "Fouls committed": "0",
-          "Was fouled": "0",
-          "Successful dribbles": "1/2 (50%)",
-          "Tackles won": "0/0 (0%)"
+          "Duels won": 3,
+          "Duels lost": 5,
+          "Ground duels won": [
+            1,
+            5,
+            20
+          ],
+          "Aerial duels won": [
+            2,
+            3,
+            67
+          ],
+          "Fouls committed": 0,
+          "Was fouled": 0,
+          "Successful dribbles": [
+            1,
+            2,
+            50
+          ],
+          "Tackles won": [
+            0,
+            0,
+            0
+          ]
         },
         {
           "Player": "Pau Torres",
-          "Duels won": "2",
-          "Duels lost": "1",
-          "Ground duels won": "1/2 (50%)",
-          "Aerial duels won": "1/1 (100%)",
-          "Fouls committed": "1",
-          "Was fouled": "0",
-          "Successful dribbles": "0",
-          "Tackles won": "1/1 (100%)"
+          "Duels won": 2,
+          "Duels lost": 1,
+          "Ground duels won": [
+            1,
+            2,
+            50
+          ],
+          "Aerial duels won": [
+            1,
+            1,
+            100
+          ],
+          "Fouls committed": 1,
+          "Was fouled": 0,
+          "Successful dribbles": 0,
+          "Tackles won": [
+            1,
+            1,
+            100
+          ]
         },
         {
           "Player": "Ryan Gravenberch",
-          "Duels won": "2",
-          "Duels lost": "0",
-          "Ground duels won": "2/2 (100%)",
-          "Aerial duels won": "0/0 (0%)",
-          "Fouls committed": "0",
-          "Was fouled": "0",
-          "Successful dribbles": "1/1 (100%)",
-          "Tackles won": "0/1 (0%)"
+          "Duels won": 2,
+          "Duels lost": 0,
+          "Ground duels won": [
+            2,
+            2,
+            100
+          ],
+          "Aerial duels won": [
+            0,
+            0,
+            0
+          ],
+          "Fouls committed": 0,
+          "Was fouled": 0,
+          "Successful dribbles": [
+            1,
+            1,
+            100
+          ],
+          "Tackles won": [
+            0,
+            1,
+            0
+          ]
         },
         {
           "Player": "Trent Alexander-Arnold",
-          "Duels won": "1",
-          "Duels lost": "5",
-          "Ground duels won": "1/5 (20%)",
-          "Aerial duels won": "0/1 (0%)",
-          "Fouls committed": "0",
-          "Was fouled": "0",
-          "Successful dribbles": "0",
-          "Tackles won": "1/1 (100%)"
+          "Duels won": 1,
+          "Duels lost": 5,
+          "Ground duels won": [
+            1,
+            5,
+            20
+          ],
+          "Aerial duels won": [
+            0,
+            1,
+            0
+          ],
+          "Fouls committed": 0,
+          "Was fouled": 0,
+          "Successful dribbles": 0,
+          "Tackles won": [
+            1,
+            1,
+            100
+          ]
         },
         {
           "Player": "Diego Carlos",
-          "Duels won": "1",
-          "Duels lost": "8",
-          "Ground duels won": "0/6 (0%)",
-          "Aerial duels won": "1/3 (33%)",
-          "Fouls committed": "4",
-          "Was fouled": "0",
-          "Successful dribbles": "0",
-          "Tackles won": "0/0 (0%)"
+          "Duels won": 1,
+          "Duels lost": 8,
+          "Ground duels won": [
+            0,
+            6,
+            0
+          ],
+          "Aerial duels won": [
+            1,
+            3,
+            33
+          ],
+          "Fouls committed": 4,
+          "Was fouled": 0,
+          "Successful dribbles": 0,
+          "Tackles won": [
+            0,
+            0,
+            0
+          ]
         },
         {
           "Player": "Jhon Duran",
-          "Duels won": "1",
-          "Duels lost": "1",
-          "Ground duels won": "1/2 (50%)",
-          "Aerial duels won": "0/0 (0%)",
-          "Fouls committed": "1",
-          "Was fouled": "0",
-          "Successful dribbles": "0",
-          "Tackles won": "1/1 (100%)"
+          "Duels won": 1,
+          "Duels lost": 1,
+          "Ground duels won": [
+            1,
+            2,
+            50
+          ],
+          "Aerial duels won": [
+            0,
+            0,
+            0
+          ],
+          "Fouls committed": 1,
+          "Was fouled": 0,
+          "Successful dribbles": 0,
+          "Tackles won": [
+            1,
+            1,
+            100
+          ]
         },
         {
           "Player": "Calum Chambers",
-          "Duels won": "1",
-          "Duels lost": "0",
-          "Ground duels won": "1/1 (100%)",
-          "Aerial duels won": "0/0 (0%)",
-          "Fouls committed": "0",
-          "Was fouled": "0",
-          "Successful dribbles": "0",
-          "Tackles won": "0/1 (0%)"
+          "Duels won": 1,
+          "Duels lost": 0,
+          "Ground duels won": [
+            1,
+            1,
+            100
+          ],
+          "Aerial duels won": [
+            0,
+            0,
+            0
+          ],
+          "Fouls committed": 0,
+          "Was fouled": 0,
+          "Successful dribbles": 0,
+          "Tackles won": [
+            0,
+            1,
+            0
+          ]
         },
         {
           "Player": "Harvey Elliott",
-          "Duels won": "1",
-          "Duels lost": "4",
-          "Ground duels won": "1/3 (33%)",
-          "Aerial duels won": "0/2 (0%)",
-          "Fouls committed": "0",
-          "Was fouled": "0",
-          "Successful dribbles": "0/1 (0%)",
-          "Tackles won": "0/1 (0%)"
+          "Duels won": 1,
+          "Duels lost": 4,
+          "Ground duels won": [
+            1,
+            3,
+            33
+          ],
+          "Aerial duels won": [
+            0,
+            2,
+            0
+          ],
+          "Fouls committed": 0,
+          "Was fouled": 0,
+          "Successful dribbles": [
+            0,
+            1,
+            0
+          ],
+          "Tackles won": [
+            0,
+            1,
+            0
+          ]
         },
         {
           "Player": "Curtis Jones",
-          "Duels won": "1",
-          "Duels lost": "2",
-          "Ground duels won": "1/3 (33%)",
-          "Aerial duels won": "0/0 (0%)",
-          "Fouls committed": "0",
-          "Was fouled": "0",
-          "Successful dribbles": "0",
-          "Tackles won": "0/1 (0%)"
+          "Duels won": 1,
+          "Duels lost": 2,
+          "Ground duels won": [
+            1,
+            3,
+            33
+          ],
+          "Aerial duels won": [
+            0,
+            0,
+            0
+          ],
+          "Fouls committed": 0,
+          "Was fouled": 0,
+          "Successful dribbles": 0,
+          "Tackles won": [
+            0,
+            1,
+            0
+          ]
         },
         {
           "Player": "Alisson Becker",
-          "Duels won": "1",
-          "Duels lost": "0",
-          "Ground duels won": "1/1 (100%)",
-          "Aerial duels won": "0",
-          "Fouls committed": "0",
-          "Was fouled": "1",
-          "Successful dribbles": "0",
-          "Tackles won": "0/0 (0%)"
+          "Duels won": 1,
+          "Duels lost": 0,
+          "Ground duels won": [
+            1,
+            1,
+            100
+          ],
+          "Aerial duels won": 0,
+          "Fouls committed": 0,
+          "Was fouled": 1,
+          "Successful dribbles": 0,
+          "Tackles won": [
+            0,
+            0,
+            0
+          ]
         },
         {
           "Player": "Emiliano Martinez",
-          "Duels won": "0",
-          "Duels lost": "0",
-          "Ground duels won": "0",
-          "Aerial duels won": "0",
-          "Fouls committed": "0",
-          "Was fouled": "0",
-          "Successful dribbles": "0",
-          "Tackles won": "0/0 (0%)"
+          "Duels won": 0,
+          "Duels lost": 0,
+          "Ground duels won": 0,
+          "Aerial duels won": 0,
+          "Fouls committed": 0,
+          "Was fouled": 0,
+          "Successful dribbles": 0,
+          "Tackles won": [
+            0,
+            0,
+            0
+          ]
         },
         {
           "Player": "Dominik Szoboszlai",
-          "Duels won": "0",
-          "Duels lost": "3",
-          "Ground duels won": "0/2 (0%)",
-          "Aerial duels won": "0/1 (0%)",
-          "Fouls committed": "0",
-          "Was fouled": "0",
-          "Successful dribbles": "0",
-          "Tackles won": "0/0 (0%)"
+          "Duels won": 0,
+          "Duels lost": 3,
+          "Ground duels won": [
+            0,
+            2,
+            0
+          ],
+          "Aerial duels won": [
+            0,
+            1,
+            0
+          ],
+          "Fouls committed": 0,
+          "Was fouled": 0,
+          "Successful dribbles": 0,
+          "Tackles won": [
+            0,
+            0,
+            0
+          ]
         },
         {
           "Player": "Darwin Nunez",
-          "Duels won": "0",
-          "Duels lost": "0",
-          "Ground duels won": "0",
-          "Aerial duels won": "0/0 (0%)",
-          "Fouls committed": "0",
-          "Was fouled": "0",
-          "Successful dribbles": "0",
-          "Tackles won": "0/0 (0%)"
+          "Duels won": 0,
+          "Duels lost": 0,
+          "Ground duels won": 0,
+          "Aerial duels won": [
+            0,
+            0,
+            0
+          ],
+          "Fouls committed": 0,
+          "Was fouled": 0,
+          "Successful dribbles": 0,
+          "Tackles won": [
+            0,
+            0,
+            0
+          ]
         },
         {
           "Player": "Nicolo Zaniolo",
-          "Duels won": "0",
-          "Duels lost": "0",
-          "Ground duels won": "0",
-          "Aerial duels won": "0/0 (0%)",
-          "Fouls committed": "0",
-          "Was fouled": "0",
-          "Successful dribbles": "0",
-          "Tackles won": "0/0 (0%)"
+          "Duels won": 0,
+          "Duels lost": 0,
+          "Ground duels won": 0,
+          "Aerial duels won": [
+            0,
+            0,
+            0
+          ],
+          "Fouls committed": 0,
+          "Was fouled": 0,
+          "Successful dribbles": 0,
+          "Tackles won": [
+            0,
+            0,
+            0
+          ]
         }
       ],
       "playerCount": 29
@@ -1958,25 +2834,41 @@
       "players": [
         {
           "Player": "Emiliano Martinez",
-          "Saves": "5",
+          "Saves": 5,
           "Goals conceded": 3,
           "xGOT faced": 2.2,
           "Goals prevented": 0.2,
-          "Acted as sweeper": "1",
-          "High claim": "3",
-          "Accurate long balls": "2/8 (25%)",
-          "Accurate passes": "30/36 (83%)"
+          "Acted as sweeper": 1,
+          "High claim": 3,
+          "Accurate long balls": [
+            2,
+            8,
+            25
+          ],
+          "Accurate passes": [
+            30,
+            36,
+            83
+          ]
         },
         {
           "Player": "Alisson Becker",
-          "Saves": "2",
+          "Saves": 2,
           "Goals conceded": 3,
           "xGOT faced": 0.73,
           "Goals prevented": -2.27,
-          "Acted as sweeper": "0",
-          "High claim": "0",
-          "Accurate long balls": "1/3 (33%)",
-          "Accurate passes": "24/27 (89%)"
+          "Acted as sweeper": 0,
+          "High claim": 0,
+          "Accurate long balls": [
+            1,
+            3,
+            33
+          ],
+          "Accurate passes": [
+            24,
+            27,
+            89
+          ]
         }
       ],
       "playerCount": 2
