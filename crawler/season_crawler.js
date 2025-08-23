@@ -47,6 +47,179 @@ class SeasonCrawler {
     }
 
     /**
+     * Navigate to previous day using the back arrow
+     */
+    async navigateToPreviousDay() {
+        try {
+            const navigated = await this.page.evaluate(() => {
+                // Look for back arrow or previous day button
+                const backElements = document.querySelectorAll('button, a, [role="button"]');
+                
+                for (const el of backElements) {
+                    const text = el.textContent?.trim().toLowerCase();
+                    const ariaLabel = el.getAttribute('aria-label')?.toLowerCase();
+                    const title = el.getAttribute('title')?.toLowerCase();
+                    
+                    // Check for various indicators of a back/previous button
+                    if (text?.includes('previous') || text?.includes('back') ||
+                        ariaLabel?.includes('previous') || ariaLabel?.includes('back') ||
+                        title?.includes('previous') || title?.includes('back') ||
+                        el.innerHTML?.includes('←') || el.innerHTML?.includes('&larr;') ||
+                        el.innerHTML?.includes('chevron-left') || el.innerHTML?.includes('arrow-left')) {
+                        
+                        el.click();
+                        return true;
+                    }
+                }
+                
+                // Also look for elements with specific class names that might indicate navigation
+                const navElements = document.querySelectorAll('[class*="prev"], [class*="back"], [class*="arrow"]');
+                for (const el of navElements) {
+                    if (el.tagName === 'BUTTON' || el.tagName === 'A' || el.getAttribute('role') === 'button') {
+                        el.click();
+                        return true;
+                    }
+                }
+                
+                return false;
+            });
+            
+            if (navigated) {
+                await this.humanDelay(2000, 3000);
+                return true;
+            }
+            
+            return false;
+        } catch (error) {
+            console.error('Error navigating to previous day:', error);
+            return false;
+        }
+    }
+
+    /**
+     * Navigate by round using dropdown
+     */
+    async navigateToRound(roundNumber) {
+        try {
+            console.log(`Navigating to round ${roundNumber}...`);
+            
+            // First, click on "By round" to switch grouping
+            const roundGroupingSet = await this.page.evaluate(() => {
+                const elements = Array.from(document.querySelectorAll('*'));
+                for (const el of elements) {
+                    const text = el.textContent?.trim();
+                    if (text === 'By round' && (el.tagName === 'BUTTON' || el.onclick || el.getAttribute('role'))) {
+                        el.click();
+                        return true;
+                    }
+                }
+                return false;
+            });
+            
+            if (roundGroupingSet) {
+                await this.humanDelay(1500, 2500);
+                
+                // Now look for round dropdown and select the specific round
+                const roundSelected = await this.page.evaluate((targetRound) => {
+                    // Look for dropdown or select elements
+                    const selects = document.querySelectorAll('select, [role="combobox"], [role="listbox"]');
+                    
+                    for (const select of selects) {
+                        const options = select.querySelectorAll('option, [role="option"]');
+                        for (const option of options) {
+                            const text = option.textContent?.trim();
+                            if (text === `Round ${targetRound}` || text === targetRound.toString() || 
+                                text === `Matchday ${targetRound}` || text === `MD ${targetRound}`) {
+                                option.click();
+                                return true;
+                            }
+                        }
+                    }
+                    
+                    // Also look for clickable round elements
+                    const elements = Array.from(document.querySelectorAll('*'));
+                    for (const el of elements) {
+                        const text = el.textContent?.trim();
+                        if ((text === `Round ${targetRound}` || text === `Matchday ${targetRound}`) && 
+                            (el.tagName === 'BUTTON' || el.onclick || el.getAttribute('role'))) {
+                            el.click();
+                            return true;
+                        }
+                    }
+                    
+                    return false;
+                }, roundNumber);
+                
+                if (roundSelected) {
+                    await this.humanDelay(2000, 3000);
+                    return true;
+                }
+            }
+            
+            return false;
+        } catch (error) {
+            console.error(`Error navigating to round ${roundNumber}:`, error);
+            return false;
+        }
+    }
+
+    /**
+     * Get all available rounds from dropdown
+     */
+    async getAvailableRounds() {
+        try {
+            // Switch to "By round" grouping first
+            await this.page.evaluate(() => {
+                const elements = Array.from(document.querySelectorAll('*'));
+                for (const el of elements) {
+                    const text = el.textContent?.trim();
+                    if (text === 'By round' && (el.tagName === 'BUTTON' || el.onclick || el.getAttribute('role'))) {
+                        el.click();
+                        break;
+                    }
+                }
+            });
+            
+            await this.humanDelay(1500, 2500);
+            
+            const rounds = await this.page.evaluate(() => {
+                const roundNumbers = [];
+                
+                // Look for dropdown options
+                const selects = document.querySelectorAll('select, [role="combobox"], [role="listbox"]');
+                for (const select of selects) {
+                    const options = select.querySelectorAll('option, [role="option"]');
+                    for (const option of options) {
+                        const text = option.textContent?.trim();
+                        const roundMatch = text.match(/(?:Round|Matchday|MD)\s*(\d+)/i);
+                        if (roundMatch) {
+                            roundNumbers.push(parseInt(roundMatch[1]));
+                        }
+                    }
+                }
+                
+                // Also look for visible round elements
+                const elements = Array.from(document.querySelectorAll('*'));
+                for (const el of elements) {
+                    const text = el.textContent?.trim();
+                    const roundMatch = text.match(/(?:Round|Matchday|MD)\s*(\d+)/i);
+                    if (roundMatch && (el.tagName === 'BUTTON' || el.onclick || el.getAttribute('role'))) {
+                        roundNumbers.push(parseInt(roundMatch[1]));
+                    }
+                }
+                
+                // Remove duplicates and sort
+                return [...new Set(roundNumbers)].sort((a, b) => a - b);
+            });
+            
+            return rounds;
+        } catch (error) {
+            console.error('Error getting available rounds:', error);
+            return [];
+        }
+    }
+
+    /**
      * Crawl all matches on a specific day
      */
     async crawlDay(seasonUrl) {
@@ -155,6 +328,254 @@ class SeasonCrawler {
             console.error('Day crawl error:', error);
             throw error;
         }
+    }
+
+    /**
+     * Crawl multiple days going backwards from current day
+     */
+    async crawlMultipleDays(seasonUrl, numberOfDays = 5) {
+        try {
+            console.log(`\\n=== CRAWLING ${numberOfDays} DAYS BACKWARDS ===`);
+            
+            // Start from the given URL (current day)
+            await this.page.goto(seasonUrl, { waitUntil: 'networkidle2', timeout: 30000 });
+            await this.humanDelay(3000, 5000);
+
+            const allResults = [];
+
+            for (let dayIndex = 0; dayIndex < numberOfDays; dayIndex++) {
+                console.log(`\\n--- DAY ${dayIndex + 1}/${numberOfDays} ---`);
+                
+                try {
+                    // Get current URL to track which day we're on
+                    const currentUrl = await this.page.url();
+                    console.log(`Current URL: ${currentUrl}`);
+                    
+                    // Extract matches for current day
+                    const dayResult = await this.crawlCurrentPage();
+                    dayResult.dayIndex = dayIndex + 1;
+                    dayResult.currentUrl = currentUrl;
+                    allResults.push(dayResult);
+                    
+                    console.log(`Day ${dayIndex + 1} complete: ${dayResult.matches.filter(m => m.success).length}/${dayResult.matchCount} matches extracted`);
+                    
+                    // Navigate to previous day (except for the last iteration)
+                    if (dayIndex < numberOfDays - 1) {
+                        console.log(`Navigating to previous day...`);
+                        const navigated = await this.navigateToPreviousDay();
+                        
+                        if (!navigated) {
+                            console.log(`Could not navigate to previous day. Stopping after ${dayIndex + 1} days.`);
+                            break;
+                        }
+                        
+                        await this.humanDelay(3000, 5000);
+                    }
+                    
+                } catch (error) {
+                    console.error(`Error on day ${dayIndex + 1}:`, error.message);
+                    allResults.push({
+                        dayIndex: dayIndex + 1,
+                        currentUrl: await this.page.url(),
+                        error: error.message,
+                        success: false
+                    });
+                }
+            }
+
+            // Save combined results
+            const timestamp = new Date().toISOString().replace(/[:.]/g, '-');
+            const filename = `multi_day_extraction_${numberOfDays}days_${timestamp}.json`;
+            const combinedResults = {
+                extractedAt: new Date().toISOString(),
+                startUrl: seasonUrl,
+                numberOfDays: numberOfDays,
+                daysExtracted: allResults.length,
+                totalMatches: allResults.reduce((sum, day) => sum + (day.matchCount || 0), 0),
+                totalSuccessful: allResults.reduce((sum, day) => sum + (day.matches?.filter(m => m.success).length || 0), 0),
+                days: allResults
+            };
+            
+            fs.writeFileSync(filename, JSON.stringify(combinedResults, null, 2));
+            
+            console.log(`\\n=== MULTI-DAY CRAWL COMPLETE ===`);
+            console.log(`Total days: ${allResults.length}`);
+            console.log(`Total matches: ${combinedResults.totalMatches}`);
+            console.log(`Successful extractions: ${combinedResults.totalSuccessful}`);
+            console.log(`Results saved to: ${filename}`);
+            
+            return combinedResults;
+            
+        } catch (error) {
+            console.error('Multi-day crawl error:', error);
+            throw error;
+        }
+    }
+
+    /**
+     * Crawl entire season by rounds
+     */
+    async crawlSeason(seasonUrl, startRound = 1, endRound = 38) {
+        try {
+            console.log(`\\n=== CRAWLING SEASON ROUNDS ${startRound}-${endRound} ===`);
+            
+            await this.page.goto(seasonUrl, { waitUntil: 'networkidle2', timeout: 30000 });
+            await this.humanDelay(3000, 5000);
+            
+            // Get all available rounds
+            const availableRounds = await this.getAvailableRounds();
+            console.log(`Available rounds: ${availableRounds.join(', ')}`);
+            
+            const targetRounds = availableRounds.filter(round => round >= startRound && round <= endRound);
+            console.log(`Target rounds: ${targetRounds.join(', ')}`);
+            
+            const seasonResults = [];
+
+            for (let i = 0; i < targetRounds.length; i++) {
+                const round = targetRounds[i];
+                console.log(`\\n--- ROUND ${round} (${i + 1}/${targetRounds.length}) ---`);
+                
+                try {
+                    // Navigate to specific round
+                    const navigated = await this.navigateToRound(round);
+                    
+                    if (!navigated) {
+                        console.error(`Could not navigate to round ${round}`);
+                        seasonResults.push({
+                            round: round,
+                            error: 'Navigation failed',
+                            success: false
+                        });
+                        continue;
+                    }
+                    
+                    // Extract matches for this round
+                    const roundResult = await this.crawlCurrentPage();
+                    roundResult.round = round;
+                    seasonResults.push(roundResult);
+                    
+                    console.log(`Round ${round} complete: ${roundResult.matches.filter(m => m.success).length}/${roundResult.matchCount} matches extracted`);
+                    
+                } catch (error) {
+                    console.error(`Error on round ${round}:`, error.message);
+                    seasonResults.push({
+                        round: round,
+                        error: error.message,
+                        success: false
+                    });
+                }
+            }
+
+            // Save season results
+            const timestamp = new Date().toISOString().replace(/[:.]/g, '-');
+            const filename = `season_extraction_rounds${startRound}-${endRound}_${timestamp}.json`;
+            const combinedResults = {
+                extractedAt: new Date().toISOString(),
+                seasonUrl: seasonUrl,
+                startRound: startRound,
+                endRound: endRound,
+                roundsExtracted: seasonResults.length,
+                totalMatches: seasonResults.reduce((sum, round) => sum + (round.matchCount || 0), 0),
+                totalSuccessful: seasonResults.reduce((sum, round) => sum + (round.matches?.filter(m => m.success).length || 0), 0),
+                rounds: seasonResults
+            };
+            
+            fs.writeFileSync(filename, JSON.stringify(combinedResults, null, 2));
+            
+            console.log(`\\n=== SEASON CRAWL COMPLETE ===`);
+            console.log(`Total rounds: ${seasonResults.length}`);
+            console.log(`Total matches: ${combinedResults.totalMatches}`);
+            console.log(`Successful extractions: ${combinedResults.totalSuccessful}`);
+            console.log(`Results saved to: ${filename}`);
+            
+            return combinedResults;
+            
+        } catch (error) {
+            console.error('Season crawl error:', error);
+            throw error;
+        }
+    }
+
+    /**
+     * Extract matches from current page (helper method)
+     */
+    async crawlCurrentPage() {
+        // Extract match links from the current page
+        const matchLinks = await this.page.evaluate(() => {
+            const matches = [];
+            
+            const links = document.querySelectorAll('a[href*="/matches/"]');
+            
+            for (const link of links) {
+                const href = link.href;
+                
+                if (href && href.includes('/matches/') && href.includes('-vs-') && !href.includes('/matches?')) {
+                    const text = link.textContent?.trim();
+                    
+                    const urlParts = href.split('/');
+                    const matchPart = urlParts.find(part => part.includes('-vs-'));
+                    
+                    if (matchPart) {
+                        const teams = matchPart.split('-vs-');
+                        matches.push({
+                            url: href,
+                            matchText: text || '',
+                            homeTeam: teams[0]?.replace(/-/g, ' ') || '',
+                            awayTeam: teams[1]?.split('#')[0]?.replace(/-/g, ' ') || '',
+                            matchId: href.split('#')[1] || href.split('/').pop()
+                        });
+                    }
+                }
+            }
+            
+            const uniqueMatches = matches.filter((match, index, self) => 
+                index === self.findIndex(m => m.url === match.url)
+            );
+            
+            return uniqueMatches;
+        });
+
+        console.log(`Found ${matchLinks.length} matches`);
+        matchLinks.forEach((match, i) => {
+            console.log(`${i + 1}. ${match.homeTeam} vs ${match.awayTeam}`);
+        });
+
+        // Extract stats for each match
+        const pageResults = {
+            extractedAt: new Date().toISOString(),
+            matchCount: matchLinks.length,
+            matches: []
+        };
+
+        for (let i = 0; i < matchLinks.length; i++) {
+            const match = matchLinks[i];
+            console.log(`\\n--- Extracting Match ${i + 1}/${matchLinks.length}: ${match.homeTeam} vs ${match.awayTeam} ---`);
+            
+            try {
+                const matchStats = await this.extractMatchStats(match.url);
+                pageResults.matches.push({
+                    matchInfo: match,
+                    stats: matchStats,
+                    success: true
+                });
+                
+                console.log(`✅ Successfully extracted: ${match.homeTeam} vs ${match.awayTeam}`);
+            } catch (error) {
+                console.error(`❌ Failed to extract: ${match.homeTeam} vs ${match.awayTeam}`, error.message);
+                pageResults.matches.push({
+                    matchInfo: match,
+                    stats: null,
+                    success: false,
+                    error: error.message
+                });
+            }
+            
+            if (i < matchLinks.length - 1) {
+                await this.humanDelay(2000, 4000);
+            }
+        }
+
+        return pageResults;
     }
 
     /**
@@ -449,8 +870,72 @@ class SeasonCrawler {
     }
 }
 
-// Test function to crawl a single day
-async function testDayCrawl() {
+// Test functions
+
+// Test navigation to previous day (crawl 2 days backwards)
+async function testMultiDayCrawl() {
+    const seasonUrl = 'https://www.fotmob.com/en-GB/leagues/47/matches/premier-league?season=2024-2025&group=by-date';
+    
+    const crawler = new SeasonCrawler();
+    try {
+        console.log('=== SEASON CRAWLER - MULTI-DAY TEST ===');
+        await crawler.init();
+        
+        const results = await crawler.crawlMultipleDays(seasonUrl, 2);
+        console.log(`\\n✅ Multi-day test complete! Extracted ${results.totalSuccessful} matches from ${results.daysExtracted} days`);
+        
+    } catch (error) {
+        console.error('Multi-day test error:', error);
+    } finally {
+        await crawler.close();
+    }
+}
+
+// Test round-based crawling
+async function testRoundCrawl() {
+    const seasonUrl = 'https://www.fotmob.com/en-GB/leagues/47/matches/premier-league?season=2024-2025&group=by-date';
+    
+    const crawler = new SeasonCrawler();
+    try {
+        console.log('=== SEASON CRAWLER - ROUND TEST ===');
+        await crawler.init();
+        
+        // Test crawling rounds 1-3 only
+        const results = await crawler.crawlSeason(seasonUrl, 1, 3);
+        console.log(`\\n✅ Round test complete! Extracted ${results.totalSuccessful} matches from ${results.roundsExtracted} rounds`);
+        
+    } catch (error) {
+        console.error('Round test error:', error);
+    } finally {
+        await crawler.close();
+    }
+}
+
+// Test getting available rounds
+async function testGetRounds() {
+    const seasonUrl = 'https://www.fotmob.com/en-GB/leagues/47/matches/premier-league?season=2024-2025&group=by-date';
+    
+    const crawler = new SeasonCrawler();
+    try {
+        console.log('=== SEASON CRAWLER - GET ROUNDS TEST ===');
+        await crawler.init();
+        
+        await crawler.page.goto(seasonUrl, { waitUntil: 'networkidle2', timeout: 30000 });
+        await crawler.humanDelay(3000, 5000);
+        
+        const rounds = await crawler.getAvailableRounds();
+        console.log(`Available rounds: ${rounds.join(', ')}`);
+        console.log(`Total rounds available: ${rounds.length}`);
+        
+    } catch (error) {
+        console.error('Get rounds test error:', error);
+    } finally {
+        await crawler.close();
+    }
+}
+
+// Test single day crawl (original test)
+async function testSingleDay() {
     const seasonUrl = 'https://www.fotmob.com/en-GB/leagues/47/matches/premier-league?season=2024-2025&group=by-date';
     
     const crawler = new SeasonCrawler();
@@ -468,5 +953,189 @@ async function testDayCrawl() {
     }
 }
 
-// Run the test
-testDayCrawl();
+/**
+ * League configuration mapping
+ */
+const LEAGUES = {
+    'premier-league': {
+        id: 47,
+        name: 'Premier League',
+        country: 'England',
+        maxRounds: 38
+    },
+    'la-liga': {
+        id: 87,
+        name: 'La Liga',
+        country: 'Spain', 
+        maxRounds: 38
+    },
+    'bundesliga': {
+        id: 54,
+        name: 'Bundesliga',
+        country: 'Germany',
+        maxRounds: 34
+    },
+    'serie-a': {
+        id: 55,
+        name: 'Serie A',
+        country: 'Italy',
+        maxRounds: 38
+    },
+    'ligue-1': {
+        id: 53,
+        name: 'Ligue 1', 
+        country: 'France',
+        maxRounds: 34
+    },
+    'champions-league': {
+        id: 42,
+        name: 'UEFA Champions League',
+        country: 'Europe',
+        maxRounds: 13
+    },
+    'europa-league': {
+        id: 73,
+        name: 'UEFA Europa League', 
+        country: 'Europe',
+        maxRounds: 13
+    }
+};
+
+/**
+ * Build season URL for a given league and season
+ */
+function buildSeasonUrl(leagueName, season) {
+    const league = LEAGUES[leagueName.toLowerCase()];
+    if (!league) {
+        throw new Error(`Unknown league: ${leagueName}. Available leagues: ${Object.keys(LEAGUES).join(', ')}`);
+    }
+    
+    return `https://www.fotmob.com/en-GB/leagues/${league.id}/matches/${leagueName}?season=${season}&group=by-date`;
+}
+
+/**
+ * Main season crawling function
+ */
+async function crawlFullSeason(leagueName, season) {
+    const league = LEAGUES[leagueName.toLowerCase()];
+    if (!league) {
+        console.error(`❌ Unknown league: ${leagueName}`);
+        console.log(`Available leagues: ${Object.keys(LEAGUES).join(', ')}`);
+        process.exit(1);
+    }
+
+    const seasonUrl = buildSeasonUrl(leagueName, season);
+    console.log(`=== CRAWLING FULL SEASON ===`);
+    console.log(`League: ${league.name} (${league.country})`);
+    console.log(`Season: ${season}`);
+    console.log(`Expected rounds: ${league.maxRounds}`);
+    console.log(`URL: ${seasonUrl}`);
+    console.log(`=====================================\\n`);
+    
+    const crawler = new SeasonCrawler();
+    try {
+        await crawler.init();
+        
+        // Crawl entire season by rounds (more reliable than day-by-day)
+        const results = await crawler.crawlSeason(seasonUrl, 1, league.maxRounds);
+        
+        console.log(`\\n🎉 SEASON CRAWL COMPLETE!`);
+        console.log(`League: ${league.name}`);
+        console.log(`Season: ${season}`);
+        console.log(`Rounds extracted: ${results.roundsExtracted}/${league.maxRounds}`);
+        console.log(`Total matches: ${results.totalMatches}`);
+        console.log(`Successful extractions: ${results.totalSuccessful}/${results.totalMatches} (${(results.totalSuccessful/results.totalMatches*100).toFixed(1)}%)`);
+        
+        return results;
+        
+    } catch (error) {
+        console.error('❌ Season crawl error:', error);
+        process.exit(1);
+    } finally {
+        await crawler.close();
+    }
+}
+
+/**
+ * Display usage information
+ */
+function showUsage() {
+    console.log(`
+🏆 FotMob Season Crawler
+Usage: node season_crawler.js <league-name> <season> [options]
+
+Arguments:
+  league-name    League identifier (required)
+  season         Season in YYYY-YYYY format (required)
+
+Available Leagues:
+  premier-league    Premier League (England) - 38 rounds
+  la-liga          La Liga (Spain) - 38 rounds  
+  bundesliga       Bundesliga (Germany) - 34 rounds
+  serie-a          Serie A (Italy) - 38 rounds
+  ligue-1          Ligue 1 (France) - 34 rounds
+  champions-league UEFA Champions League - 13 rounds
+  europa-league    UEFA Europa League - 13 rounds
+
+Examples:
+  node season_crawler.js premier-league 2024-2025
+  node season_crawler.js la-liga 2023-2024
+  node season_crawler.js bundesliga 2024-2025
+
+Test Commands:
+  node season_crawler.js test single       # Test single day
+  node season_crawler.js test multi-day    # Test 2 days backwards
+  node season_crawler.js test rounds       # Test rounds discovery
+  node season_crawler.js test season       # Test 3 rounds extraction
+`);
+}
+
+// Parse command line arguments
+const args = process.argv.slice(2);
+
+if (args.length === 0 || args[0] === '--help' || args[0] === '-h') {
+    showUsage();
+    process.exit(0);
+}
+
+// Handle test commands
+if (args[0] === 'test') {
+    const testType = args[1] || 'rounds';
+    
+    switch (testType) {
+        case 'multi-day':
+            testMultiDayCrawl();
+            break;
+        case 'rounds':
+            testGetRounds();
+            break;
+        case 'season':
+            testRoundCrawl();
+            break;
+        case 'single':
+        default:
+            testSingleDay();
+            break;
+    }
+} else {
+    // Handle league and season crawling
+    if (args.length < 2) {
+        console.error('❌ Error: Both league-name and season are required');
+        showUsage();
+        process.exit(1);
+    }
+    
+    const leagueName = args[0];
+    const season = args[1];
+    
+    // Validate season format (YYYY-YYYY)
+    const seasonPattern = /^\d{4}-\d{4}$/;
+    if (!seasonPattern.test(season)) {
+        console.error(`❌ Error: Season must be in YYYY-YYYY format (e.g., 2024-2025)`);
+        console.error(`Provided: ${season}`);
+        process.exit(1);
+    }
+    
+    // Run full season crawl
+    crawlFullSeason(leagueName, season);
+}
