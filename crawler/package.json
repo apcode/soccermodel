@@ -1,17 +1,18 @@
 {
   "name": "fotmob-crawler",
   "version": "1.0.0",
-  "description": "Web crawler for extracting football data from fotmob.com",
-  "main": "index.js",
+  "type": "module",
+  "description": "FotMob football data crawler for league extraction and match stats",
+  "main": "final_working_extractor.js",
   "scripts": {
-    "start": "node index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node final_working_extractor.js",
+    "league": "node explore_league_structure.js",
+    "match": "node fotmob_match_extractor.js"
   },
-  "keywords": ["football", "crawler", "puppeteer", "fotmob"],
-  "author": "",
-  "license": "MIT",
   "dependencies": {
-    "puppeteer": "^24.0.0"
+    "puppeteer": "^22.0.0"
   },
-  "type": "module"
+  "keywords": ["football", "soccer", "crawler", "fotmob", "stats"],
+  "author": "Soccer Analytics",
+  "license": "MIT"
 }
